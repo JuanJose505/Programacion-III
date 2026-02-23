@@ -1,0 +1,7 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\obj\Debug\ProgIII.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\obj\Debug\ProgIII.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\bin\Debug\ProgIII.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\bin\Debug\ProgIII.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\bin\Debug\ProgIII.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\obj\Debug\ProgIII.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ProgIII\ProgIII\obj\Debug\ProgIII.pdb
