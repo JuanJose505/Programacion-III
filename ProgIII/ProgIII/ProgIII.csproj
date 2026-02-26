@@ -44,20 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejercicios\Ejercicio1.cs" />
-    <Compile Include="Ejercicios\IReproductor.cs" />
-    <Compile Include="Ejercicios\Modelos\Cancion.cs" />
-    <Compile Include="Ejercicios\Modelos\Gato.cs" />
-    <Compile Include="Ejercicios\Modelos\Libro.cs" />
-    <Compile Include="Ejercicios\Modelos\Loro.cs" />
-    <Compile Include="Ejercicios\Modelos\Mascota.cs" />
-    <Compile Include="Ejercicios\Modelos\Podcast.cs" />
-    <Compile Include="Ejercicios\Modelos\Producto.cs" />
-    <Compile Include="Ejercicios\Modelos\VehiculoElectrico.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio3\IReproductor.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio3\Cancion.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio1\Gato.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio4\Libro.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio1\Loro.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio1\Mascota.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio3\Podcast.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio2\Producto.cs" />
+    <Compile Include="Ejercicios POO\Ejercicio5\VehiculoElectrico.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
