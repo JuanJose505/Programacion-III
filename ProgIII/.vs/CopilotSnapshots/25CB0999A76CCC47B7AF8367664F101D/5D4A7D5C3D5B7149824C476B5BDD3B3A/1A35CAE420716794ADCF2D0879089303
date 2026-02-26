@@ -1,0 +1,87 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ProgIII.Ejercicios;
+using ProgIII.Ejercicios.Modelos;
+
+namespace ProgIII
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("1-Sistema de mascotas virtuales");
+            Console.WriteLine("2-Gestion de inventario de tienda");
+            int opcion_menu = int.Parse(Console.ReadLine());
+
+            if (opcion_menu == 1)
+            {
+                Console.WriteLine("Que animal desea crear?");
+                Console.WriteLine("1-Gato");
+                Console.WriteLine("2-Loro");
+                int opcion = int.Parse(Console.ReadLine());
+
+                if (opcion == 1)
+                {
+                    Console.WriteLine("Que nombre desea para el Gato?");
+                    string nombre = Console.ReadLine();
+                    Console.WriteLine("Que edad desea para el Gato?");
+                    int edad = int.Parse(Console.ReadLine());
+                    Mascota a = new Gato($"{nombre}", edad);
+                    a.Hacertruco();
+                }
+                else if (opcion == 2)
+                {
+                    Console.WriteLine("Que nombre desea para el Loro?");
+                    string nombre = Console.ReadLine();
+                    Console.WriteLine("Que edad desea para el Loro?");
+                    int edad = int.Parse(Console.ReadLine());
+                    Mascota b = new Loro($"{nombre}", edad);
+                    b.Hacertruco();
+                }
+
+            }
+            else if (opcion_menu == 2)
+            {
+                Console.WriteLine("Si quiere terminar el programa presione *");
+                string salir = Console.ReadLine();
+                while (salir != "*")
+                {
+                    Producto producto = null;
+                    Console.WriteLine("1-Ingresar productos al sistema 2-Vender productos");
+                    int opcion = int.Parse(Console.ReadLine());
+
+                    if (opcion == 1)
+                    {
+                        Console.WriteLine("Ingrese el nombre del producto a ingresar");
+                        string n = Console.ReadLine();
+                        Console.WriteLine("Ingrese el precio del producto a ingresar");
+                        int p = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese el stock del producto (cantidad)");
+                        int s = int.Parse(Console.ReadLine());
+
+                        producto = new Producto(n, p, s);
+                    }
+                    else if (opcion == 2)
+                    {
+                        if (producto == null)
+                        {
+                            Console.WriteLine("No hay productos en sistema");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ingrese cantidad a vender");
+                            int c = int.Parse(Console.ReadLine());
+                            producto.Vender(c);
+
+                        }
+
+                    }
+
+                }
+            }   
+        }
+    }
+}

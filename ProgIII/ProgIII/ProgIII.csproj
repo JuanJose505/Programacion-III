@@ -44,6 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejercicios\Ejercicio1.cs" />
+    <Compile Include="Ejercicios\IReproductor.cs" />
+    <Compile Include="Ejercicios\Modelos\Cancion.cs" />
+    <Compile Include="Ejercicios\Modelos\Gato.cs" />
+    <Compile Include="Ejercicios\Modelos\Libro.cs" />
+    <Compile Include="Ejercicios\Modelos\Loro.cs" />
+    <Compile Include="Ejercicios\Modelos\Mascota.cs" />
+    <Compile Include="Ejercicios\Modelos\Podcast.cs" />
+    <Compile Include="Ejercicios\Modelos\Producto.cs" />
+    <Compile Include="Ejercicios\Modelos\VehiculoElectrico.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
