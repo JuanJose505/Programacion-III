@@ -13,13 +13,13 @@ namespace EjerciciosPOO.Modelos.Ejercicio1
 
         public CuentaBancaria(string titular, decimal saldo)
         {
-            string Titular = titular;
-            decimal Saldo = saldo;
+            this.Titular = titular;
+            this.Saldo = saldo;
         }
 
         public void ConsultarSaldo()
         {
-            Console.WriteLine($"El saldo del usuario es de {Saldo}");
+            Console.WriteLine($"El saldo del usuario {Titular} es de {Saldo}");
         }
 
         public void Depositar(decimal cantidad)

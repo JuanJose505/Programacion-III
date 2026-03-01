@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EjerciciosPOO.Modelos.Ejercicio1;
+using EjerciciosPOO.Modelos.Ejercicio2;
+using EjerciciosPOO.Modelos.Ejercicio3;
 
 namespace EjerciciosPOO
 {
@@ -11,7 +13,10 @@ namespace EjerciciosPOO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1-CuentaBancaria");
+            Console.WriteLine("1-Cuenta bancaria");
+            Console.WriteLine("2-Control de inventario");
+            Console.WriteLine("3-Calculadora de calificaciones");
+
             int menu = int.Parse(Console.ReadLine());
             if (menu == 1)
             {
@@ -20,6 +25,20 @@ namespace EjerciciosPOO
                 cuenta.Depositar(30000);
                 cuenta.Retirar(30000);
             }
+            else if (menu == 2)
+            {
+                Producto producto = new Producto("Dorito", 2342, 4000);
+                producto.AgregarStock(6);
+                producto.VenderProducto(5);
+                producto.MostrarInfo();
+
+            }
+            else if (menu == 3)
+            {
+                Programa colegio = new Programa();
+                colegio.Ejecutar();
+            }
+
         }
     }
 }
