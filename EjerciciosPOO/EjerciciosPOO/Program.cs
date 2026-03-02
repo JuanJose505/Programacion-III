@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using EjerciciosPOO.Modelos.Ejercicio1;
 using EjerciciosPOO.Modelos.Ejercicio2;
 using EjerciciosPOO.Modelos.Ejercicio3;
+using EjerciciosPOO.Modelos.Ejercicio4;
 
 namespace EjerciciosPOO
 {
@@ -16,6 +17,7 @@ namespace EjerciciosPOO
             Console.WriteLine("1-Cuenta bancaria");
             Console.WriteLine("2-Control de inventario");
             Console.WriteLine("3-Calculadora de calificaciones");
+            Console.WriteLine("4-Gestion de viajes");
 
             int menu = int.Parse(Console.ReadLine());
             if (menu == 1)
@@ -38,7 +40,13 @@ namespace EjerciciosPOO
                 Programa colegio = new Programa();
                 colegio.Ejecutar();
             }
-
+            else if (menu == 4)
+            {
+                Vehiculo vehiculo1 = new Vehiculo("Ford", 80, 12);
+                Vehiculo vehiculo2 = new Vehiculo("Mustang", 50, 10);
+                vehiculo1.NecesitaCombustible(961);
+                vehiculo2.NecesitaCombustible(800);
+            }
         }
     }
 }

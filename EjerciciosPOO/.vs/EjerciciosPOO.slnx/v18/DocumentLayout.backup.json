@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\ejerciciospoo\\ejerciciospoo\\modelos\\ejercicio3\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\ejercicio3\\programa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\ejerciciospoo\\ejerciciospoo\\modelos\\ejercicio3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\ejercicio3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\ejerciciospoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\ejerciciospoo\\ejerciciospoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\ejerciciospoo\\ejerciciospoo\\modelos\\ejercicio4\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C87E77-3C74-4C20-8BCC-018D84C14485}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\ejercicio4\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Programa.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Ejercicio3\\Programa.cs",
-              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\Ejercicio3\\Programa.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Ejercicio3\\Programa.cs*",
-              "RelativeToolTip": "EjerciciosPOO\\Modelos\\Ejercicio3\\Programa.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T20:47:01.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Ejercicio3\\Estudiante.cs",
-              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\Ejercicio3\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Ejercicio3\\Estudiante.cs",
-              "RelativeToolTip": "EjerciciosPOO\\Modelos\\Ejercicio3\\Estudiante.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAJAAAAAAAAAA==",
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Ejercicio4\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\Ejercicio4\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Ejercicio4\\Vehiculo.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Modelos\\Ejercicio4\\Vehiculo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T17:13:14.595Z",
+              "WhenOpened": "2026-03-01T23:39:32.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Program.cs",
               "RelativeDocumentMoniker": "EjerciciosPOO\\Program.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Program.cs",
-              "RelativeToolTip": "EjerciciosPOO\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBEAAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\EjerciciosPOO\\EjerciciosPOO\\Program.cs*",
+              "RelativeToolTip": "EjerciciosPOO\\Program.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwC8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:44:14.337Z",
+              "WhenOpened": "2026-03-01T23:39:12.053Z",
               "EditorCaption": ""
             }
           ]

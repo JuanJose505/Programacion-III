@@ -47,6 +47,7 @@
     <Compile Include="Modelos\Ejercicio2\Producto.cs" />
     <Compile Include="Modelos\Ejercicio3\Estudiante.cs" />
     <Compile Include="Modelos\Ejercicio3\Programa.cs" />
+    <Compile Include="Modelos\Ejercicio4\Vehiculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
