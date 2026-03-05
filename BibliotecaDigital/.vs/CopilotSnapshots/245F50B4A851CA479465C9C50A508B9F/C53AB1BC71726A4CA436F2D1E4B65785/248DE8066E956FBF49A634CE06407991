@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BibliotecaDigital.Interfaces;
+using BibliotecaDigital.Modelos;
+
+namespace BibliotecaDigital
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            bool while_menu = true;
+            List<IPrestable> lista = new List<IPrestable>();
+            while (while_menu == true)
+            {
+                Console.WriteLine("Bienvenido a la biblioteca!");
+                Console.WriteLine("Que desea pedir prestado? 1-Libro | 2-Revista | 3-Audiolibro");
+                Console.WriteLine("Si desea salir presione 4");
+                int if_menu = int.Parse(Console.ReadLine());
+                if (if_menu == 1)
+                {
+                    Console.WriteLine("Nombre del libro");
+                    string nombre_libro = Console.ReadLine();
+
+                    Console.WriteLine("Autor del libro");
+                    string autor_libro = Console.ReadLine();
+
+                    Console.WriteLine("Id del libro");
+                    int id_libro = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Año de publicacion");
+                    int year_libro = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Categoria del libro");
+                    string categoria_libro = Console.ReadLine();
+
+                    Console.WriteLine("ISBN del libro");
+                    int isbn_libro = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Numero de paginas del libro");
+                    int paginas_libro = int.Parse(Console.ReadLine());
+
+
+                    Libro libro1 = new Libro(id_libro, nombre_libro, autor_libro, year_libro, categoria_libro, isbn_libro, paginas_libro);
+                    lista.Add(libro1);
+                } 
+                else if (if_menu == 2)
+                {
+                    
+                }
+            }
+            
+        }
+    }
+}

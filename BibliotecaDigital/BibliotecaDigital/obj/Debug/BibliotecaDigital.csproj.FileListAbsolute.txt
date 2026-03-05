@@ -1,0 +1,7 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\bin\Debug\BibliotecaDigital.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\bin\Debug\BibliotecaDigital.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\bin\Debug\BibliotecaDigital.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\obj\Debug\BibliotecaDigital.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\obj\Debug\BibliotecaDigital.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\obj\Debug\BibliotecaDigital.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\BibliotecaDigital\BibliotecaDigital\obj\Debug\BibliotecaDigital.pdb

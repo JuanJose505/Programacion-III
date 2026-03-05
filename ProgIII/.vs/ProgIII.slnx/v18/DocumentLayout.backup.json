@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\progiii\\progiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|solutionrelative:progiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\progiii\\ejercicios poo\\ejercicio3\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|solutionrelative:progiii\\ejercicios poo\\ejercicio3\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\progiii\\ejercicios poo\\ejercicio3\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|solutionrelative:progiii\\ejercicios poo\\ejercicio3\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\progiii\\ejercicios poo\\ejercicio3\\ireproductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D99CBE-73FB-497E-A9C9-3F9C83C75D9C}|ProgIII\\ProgIII.csproj|solutionrelative:progiii\\ejercicios poo\\ejercicio3\\ireproductor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +36,48 @@
               "RelativeDocumentMoniker": "ProgIII\\Program.cs",
               "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Program.cs",
               "RelativeToolTip": "ProgIII\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T17:57:24.05Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-03-02T14:14:17.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cancion.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Ejercicios POO\\Ejercicio3\\Cancion.cs",
+              "RelativeDocumentMoniker": "ProgIII\\Ejercicios POO\\Ejercicio3\\Cancion.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Ejercicios POO\\Ejercicio3\\Cancion.cs",
+              "RelativeToolTip": "ProgIII\\Ejercicios POO\\Ejercicio3\\Cancion.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:19:58.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Podcast.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Ejercicios POO\\Ejercicio3\\Podcast.cs",
+              "RelativeDocumentMoniker": "ProgIII\\Ejercicios POO\\Ejercicio3\\Podcast.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Ejercicios POO\\Ejercicio3\\Podcast.cs",
+              "RelativeToolTip": "ProgIII\\Ejercicios POO\\Ejercicio3\\Podcast.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:19:57.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReproductor.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Ejercicios POO\\Ejercicio3\\IReproductor.cs",
+              "RelativeDocumentMoniker": "ProgIII\\Ejercicios POO\\Ejercicio3\\IReproductor.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\ProgIII\\ProgIII\\Ejercicios POO\\Ejercicio3\\IReproductor.cs",
+              "RelativeToolTip": "ProgIII\\Ejercicios POO\\Ejercicio3\\IReproductor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T13:19:50.426Z",
               "EditorCaption": ""
             }
           ]

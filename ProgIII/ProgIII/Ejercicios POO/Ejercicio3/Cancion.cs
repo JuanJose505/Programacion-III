@@ -13,21 +13,28 @@ namespace ProgIII.Ejercicios.Modelos
         public string Nombre { get; set; }
         public string Artista { get; set; }
 
-        public Cancion(string nombre, string artista)
+        public string Album { get; set; }
+
+        public Cancion(string nombre, string artista, string album)
         {
             Nombre = nombre;
             Artista = artista;
+            Album = album;
 
         }
 
         public void Play()
         {
-            Console.WriteLine($"Reproduciendo cancion {Nombre} - {Artista}");
+            Console.WriteLine($"Reproduciendo cancion {Nombre} - {Album} - {Artista}");
         }
 
         public void Stop()
         {
-            Console.WriteLine($"Se detuvo la reproduccion de {Nombre} - {Artista}");
+            Console.WriteLine($"Se detuvo la reproduccion de {Nombre} - {Album} - {Artista}");
+        }
+
+        public Cancion(){
+
         }
     }
 }

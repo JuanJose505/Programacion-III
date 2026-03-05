@@ -107,87 +107,102 @@ namespace ProgIII
                 }
                 else if (opcion_menu == 3)
                 {
-
-                    Console.WriteLine("1- Cancion 2- Podcast");
-                    int opcion = int.Parse(Console.ReadLine());
-                    if (opcion == 1)
+                    bool salida = true;
+                    List<IReproductor> Playlist = new List<IReproductor>();
+                    while (salida)
                     {
-                        IReproductor cancion = new Cancion("Call it fate, Call it karma", "The strokes");
-                        cancion.Play();
-                        Console.ReadLine();
-                        Console.WriteLine($"Desea pausar {cancion.Nombre}? 1-SI 2-NO");
-                        int decision = int.Parse(Console.ReadLine());
-                        if (decision == 1)
+                        
+                        Console.WriteLine("Bienvenido al reproducto de Musica y Podcast por excelencia!");
+                        Console.WriteLine("1-Agregar una cancion");
+                        Console.WriteLine("2-Agregar un podcast");
+                        Console.WriteLine("3-Reproducir Playlist");
+                        int menu_reproductor = int.Parse(Console.ReadLine());
+                        if (menu_reproductor == 1)
                         {
-                            cancion.Stop();
+                            Console.WriteLine("Ingrese el nombre de la cacion");
+                            string nombre_cancion = Console.ReadLine();
+                            Console.WriteLine("Ingrese el nombre del artista");
+                            string nombre_artista = Console.ReadLine();
+                            Console.WriteLine("Ingrese el album");
+                            string nombre_album = Console.ReadLine();
+                            Playlist.Add(new Cancion
+                            {
+                                Nombre = nombre_cancion,
+                                Album = nombre_album,
+                                Artista = nombre_artista
+                            });
                         }
-                        else if (decision == 2)
+                        else if (menu_reproductor == 2)
                         {
-                            cancion.Play();
-                            Console.ReadLine();
+                            Console.WriteLine("Ingrese el nombre del podcast");
+                            string nombre_podcast = Console.ReadLine();
+                            Console.WriteLine("Ingrese el nombre del Host");
+                            string nombre_host = Console.ReadLine();
+                            Console.WriteLine("Ingrese el nombre del episodio");
+                            string nombre_episodio = Console.ReadLine();
+                            Playlist.Add(new Podcast
+                            {
+                                Nombre = nombre_podcast,
+                                Episodio = nombre_episodio,
+                                Host = nombre_host
+                            });
                         }
-                        else Console.WriteLine("Valor ingresado no valido, saliendo...");
+                        else if (menu_reproductor == 3)
+                        {
+                            Console.WriteLine("A continuacion se reproducira la playlist que creo!");
+                            foreach (Cancion cancion in Playlist)
+                            {
+                                Console.WriteLine("Nombre: " + cancion.Nombre);
+                                Console.WriteLine("Artista: " + cancion.Artista);
+                                Console.WriteLine("Album: " + cancion.Album);
+                                cancion.Play();
+                                Console.WriteLine("-----------------------------------------------------");
+                                Console.ReadLine();
+                            }
+                        }
+
+                        else if (opcion_menu == 4)
+                        {
+                            Console.WriteLine("Ingrese el nombre del libro a buscar prestado");
+                            string n_libro = Console.ReadLine();
+                            Console.WriteLine("Ingrese el autor del libro que acaba de ingresar");
+                            string a_libro = Console.ReadLine();
+                            Libro libro = new Libro(n_libro, a_libro, true);
+                            libro.Prestar();
+
+                            Console.WriteLine("Ingrese el nombre del libro a buscar prestado");
+                            string n2_libro = Console.ReadLine();
+                            Console.WriteLine("Ingrese el autor del libro que acaba de ingresar");
+                            string a2_libro = Console.ReadLine();
+                            Libro libro2 = new Libro(n_libro, a_libro, true);
+
+                            libro.Prestar();
+                        }
+                        else if (opcion_menu == 5)
+                        {
+                            bool exit = true;
+                            VehiculoElectrico carraso = new VehiculoElectrico(100);
+                            while (exit)
+                            {
+                                carraso.Viajar();
+                                Console.WriteLine("Si quieres dejar de viajar presione *");
+                                string decisionviaje = Console.ReadLine();
+                                if (decisionviaje == "*")
+                                {
+                                    return;
+                                }
+
+                            }
+
+
+                        }
                     }
-                    else if (opcion == 2)
-                    {
-                        IReproductor podcast = new Podcast("CHARLA CON UN SOLDADO DE FORTUNA| Lo que se siente al matar cara a cara, Estrés PostTraumatico", "Jordi Wild");
-                        podcast.Play();
-                        Console.ReadLine();
-                        Console.WriteLine($"Desea pausar {podcast.Nombre}? 1-SI 2-NO");
-                        int decision = int.Parse(Console.ReadLine());
-                        if (decision == 1)
-                        {
-                            podcast.Stop();
-                        }
-                        else if (decision == 2)
-                        {
-                            podcast.Play();
-                            Console.ReadLine();
-                        }
-                        else Console.WriteLine("Valor ingresado no valido, saliendo...");
-                    }
-                    else Console.WriteLine("Valor ingresado no valido");
-                }
-                else if (opcion_menu == 4)
-                {
-                    Console.WriteLine("Ingrese el nombre del libro a buscar prestado");
-                    string n_libro = Console.ReadLine();
-                    Console.WriteLine("Ingrese el autor del libro que acaba de ingresar");
-                    string a_libro = Console.ReadLine();
-                    Libro libro = new Libro(n_libro, a_libro, true);
-                    libro.Prestar();
 
-                    Console.WriteLine("Ingrese el nombre del libro a buscar prestado");
-                    string n2_libro = Console.ReadLine();
-                    Console.WriteLine("Ingrese el autor del libro que acaba de ingresar");
-                    string a2_libro = Console.ReadLine();
-                    Libro libro2 = new Libro(n_libro, a_libro, true);
-
-                    libro.Prestar();
-                }
-                else if (opcion_menu == 5)
-                {
-                    bool exit = true;
-                    VehiculoElectrico carraso = new VehiculoElectrico(100);
-                    while (exit)
-                    {
-                        carraso.Viajar();
-                        Console.WriteLine("Si quieres dejar de viajar presione *");
-                        string decisionviaje = Console.ReadLine();
-                        if (decisionviaje == "*")
-                        {
-                            return;
-                        }
-
-                    }
 
 
                 }
-            }
-
-
-
             }
         }
     }
+}
 
