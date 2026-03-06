@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaDigital.Enums;
 
 namespace BibliotecaDigital.Modelos
 {
@@ -12,9 +13,9 @@ namespace BibliotecaDigital.Modelos
         string Titulo { get; set; }
         string Autor { get; set; }
         int YearPublication { get; set; }
-        string Categoria { get; set; }
+        TipoCategoria Categoria { get; set; }
 
-        protected MaterialBiblioteca(int id, string titulo, string autor, int yearpublication, string categoria)
+        protected MaterialBiblioteca(int id, string titulo, string autor, int yearpublication, TipoCategoria categoria)
         {
             this.Id = id;
             this.Titulo = titulo;

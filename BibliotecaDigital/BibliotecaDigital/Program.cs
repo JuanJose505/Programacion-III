@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaDigital.Enums;
 using BibliotecaDigital.Interfaces;
 using BibliotecaDigital.Modelos;
 
@@ -35,8 +37,7 @@ namespace BibliotecaDigital
                     Console.WriteLine("Año de publicacion");
                     int year_libro = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Categoria del libro");
-                    string categoria_libro = Console.ReadLine();
+                    TipoCategoria categoria = SeleccionarCategoria();
 
                     Console.WriteLine("ISBN del libro");
                     int isbn_libro = int.Parse(Console.ReadLine());
@@ -45,7 +46,7 @@ namespace BibliotecaDigital
                     int paginas_libro = int.Parse(Console.ReadLine());
 
 
-                    Libro libro1 = new Libro(id_libro, nombre_libro, autor_libro, year_libro, categoria_libro, isbn_libro, paginas_libro);
+                    Libro libro1 = new Libro(id_libro, nombre_libro, autor_libro, year_libro, categoria, isbn_libro, paginas_libro);
                     lista.Add(libro1);
                 } 
                 else if (if_menu == 2)
@@ -62,8 +63,8 @@ namespace BibliotecaDigital
                     Console.WriteLine("Año de publicacion");
                     int year_revista = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Categoria de la revista");
-                    string categoria_revista = Console.ReadLine();
+                    
+                    TipoCategoria categoria = SeleccionarCategoria();
 
                     Console.WriteLine("Numero de edicion de la revista");
                     int num_edicion = int.Parse(Console.ReadLine());
@@ -78,7 +79,7 @@ namespace BibliotecaDigital
                     string editorial= Console.ReadLine();
 
 
-                    Revista revista1 = new Revista(id_revista, nombre_revista, autor_revista, year_revista, categoria_revista, num_edicion, periodicidad, num_paginas, editorial);
+                    Revista revista1 = new Revista(id_revista, nombre_revista, autor_revista, year_revista, categoria, num_edicion, periodicidad, num_paginas, editorial);
                     lista.Add(revista1);
                 }
                 else if (if_menu == 3)
@@ -95,8 +96,7 @@ namespace BibliotecaDigital
                     Console.WriteLine("Año de publicacion del audiolibro");
                     int year_audiolibro = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Categoria del audiolibro");
-                    string categoria_audiolibro = Console.ReadLine();
+                    TipoCategoria categoria = SeleccionarCategoria();
 
                     Console.WriteLine("Duracion del audiolibro");
                     TimeSpan duracion = TimeSpan.Parse(Console.ReadLine());
@@ -105,7 +105,7 @@ namespace BibliotecaDigital
                     string narrador = Console.ReadLine();
 
 
-                    AudioLibro audiolibro1= new AudioLibro(id_audiolibro, nombre_audiolibro, autor_audiolibro, year_audiolibro, categoria_audiolibro, duracion, narrador);
+                    AudioLibro audiolibro1= new AudioLibro(id_audiolibro, nombre_audiolibro, autor_audiolibro, year_audiolibro, categoria, duracion, narrador);
                     lista.Add(audiolibro1);
                 }
                 else if (if_menu == 4)
@@ -120,8 +120,61 @@ namespace BibliotecaDigital
 
                     }
                 }
+
             }
             
         }
+        private static TipoCategoria SeleccionarCategoria()
+        {
+            Console.WriteLine("Selecciona una categoria");
+            Console.WriteLine("1.Ficcion");
+            Console.WriteLine("2.NoFiccion");
+            Console.WriteLine("3.Ciencia");
+            Console.WriteLine("4.Historia");
+            Console.WriteLine("5.Tecnologia");
+            
+            int seleccioncategoria = int.Parse(Console.ReadLine());
+            switch (seleccioncategoria)
+            {
+                case 1:
+                    {
+                        Console.WriteLine(TipoCategoria.Ficcion);
+                        return TipoCategoria.Ficcion;
+                    }
+
+                case 2:
+                    {
+                        Console.WriteLine(TipoCategoria.NoFiccion);
+                        return TipoCategoria.NoFiccion;
+                    }
+                case 3:
+                    {
+                        Console.WriteLine(TipoCategoria.Ciencia);
+                        return TipoCategoria.Ciencia;
+                    }
+                case 4:
+                    {
+                        Console.WriteLine(TipoCategoria.Historia);
+                        return TipoCategoria.Historia;
+                    }
+                case 5:
+                    {
+                        Console.WriteLine(TipoCategoria.Tecnologia);
+                        return TipoCategoria.Tecnologia;
+                    }
+                default:
+                    {
+                        Console.WriteLine(TipoCategoria.SinCategoria);
+                        return TipoCategoria.SinCategoria;
+                    }
+
+
+
+            }
+            
+            
+        }
+
     }
+
 }

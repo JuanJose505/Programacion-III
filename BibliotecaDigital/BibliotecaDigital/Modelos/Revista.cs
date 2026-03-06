@@ -15,7 +15,7 @@ namespace BibliotecaDigital.Modelos
         int Numero_Paginas { get; set; }
         string Editorial { get; set; }
 
-        public Revista(int id, string titulo, string autor, int yearpublication, string categoria, int numero_edicion, string periodicidad, int numero_paginas, string editorial):base(id,titulo,autor,yearpublication,categoria)
+        public Revista(int id, string titulo, string autor, int yearpublication, TipoCategoria categoria, int numero_edicion, string periodicidad, int numero_paginas, string editorial):base(id,titulo,autor,yearpublication,categoria)
         {
             this.Numero_edicion = numero_edicion;
             this.Periodicidad = periodicidad;

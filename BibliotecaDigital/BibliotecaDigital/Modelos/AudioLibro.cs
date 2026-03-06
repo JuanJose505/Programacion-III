@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BibliotecaDigital.Enums;
 using BibliotecaDigital.Interfaces;
 
 namespace BibliotecaDigital.Modelos
@@ -12,7 +13,7 @@ namespace BibliotecaDigital.Modelos
         TimeSpan Duracion { get; set; }
         string Narrador { get; set; }
 
-        public AudioLibro (int id, string titulo, string autor, int yearpublication, string categoria, TimeSpan duracion, string narrador) : base(id, titulo, autor, yearpublication, categoria)
+        public AudioLibro (int id, string titulo, string autor, int yearpublication, TipoCategoria categoria, TimeSpan duracion, string narrador) : base(id, titulo, autor, yearpublication, categoria)
         {
             this.Duracion = duracion;
             this.Narrador = narrador;
