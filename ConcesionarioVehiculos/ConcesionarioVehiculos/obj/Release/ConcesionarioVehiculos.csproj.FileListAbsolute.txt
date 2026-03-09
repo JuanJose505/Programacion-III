@@ -1,0 +1,7 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\bin\Release\ConcesionarioVehiculos.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\bin\Release\ConcesionarioVehiculos.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\bin\Release\ConcesionarioVehiculos.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\obj\Release\ConcesionarioVehiculos.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\obj\Release\ConcesionarioVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\obj\Release\ConcesionarioVehiculos.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\ConcesionarioVehiculos\ConcesionarioVehiculos\obj\Release\ConcesionarioVehiculos.pdb
