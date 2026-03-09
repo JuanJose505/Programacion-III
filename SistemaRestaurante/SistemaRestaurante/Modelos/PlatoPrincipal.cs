@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaRestaurante.Modelos
 {
-    internal class PlatoPrincipal
+    public class PlatoPrincipal
     {
     }
 }

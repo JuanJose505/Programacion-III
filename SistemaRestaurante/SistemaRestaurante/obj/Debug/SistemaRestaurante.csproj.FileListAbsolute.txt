@@ -1,0 +1,7 @@
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\bin\Debug\SistemaRestaurante.exe.config
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\bin\Debug\SistemaRestaurante.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\bin\Debug\SistemaRestaurante.pdb
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.csproj.AssemblyReference.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\SistemaRestaurante\SistemaRestaurante\obj\Debug\SistemaRestaurante.pdb

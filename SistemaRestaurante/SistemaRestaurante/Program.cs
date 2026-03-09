@@ -5,6 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using SistemaRestaurante.Enums;
+using SistemaRestaurante.Modelos;
 
 namespace SistemaRestaurante
 {
@@ -12,6 +13,10 @@ namespace SistemaRestaurante
     {
         static void Main(string[] args)
         {
+            Entrada entrada1 = new Entrada("123", "Pan", "El pan es tal tal tal", 5000, TipoComida.Vegetariana, NivelDificultad.Intermedio, EstadoOrden.Preparado, true, 5);
+            entrada1.CalcularTiempoPreparacion();
+            entrada1.MostrarInformacionNutricional();
+
             
         }
         

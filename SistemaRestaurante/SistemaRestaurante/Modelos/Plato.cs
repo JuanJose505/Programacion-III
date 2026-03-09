@@ -32,7 +32,6 @@ namespace SistemaRestaurante.Modelos
         {
             Console.WriteLine("////////// DESCRIPCION NUTRICIONAL //////////");
             Console.WriteLine("");
-            Console.WriteLine("");
             Console.WriteLine($"ID = {Id}");
             Console.WriteLine($"Nombre = {Nombre}");
             Console.WriteLine($"Descripcion = {Descripcion}");
