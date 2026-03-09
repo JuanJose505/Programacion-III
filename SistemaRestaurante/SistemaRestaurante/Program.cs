@@ -15,6 +15,90 @@ namespace SistemaRestaurante
             
         }
         
+
+
+        private TipoComida CalcularTipoComida()
+        {
+            Console.WriteLine("Que tipo de comida escogera?");
+            Console.WriteLine("1-Vegetariana");
+            Console.WriteLine("2-Vegana");
+            Console.WriteLine("3-Carnivora");
+            Console.WriteLine("4-Mariscos");
+            Console.WriteLine("5-Mixta");
+
+            int menu = int.Parse(Console.ReadLine());
+            switch (menu)
+            {
+                case 1:
+                    {
+                        Console.WriteLine(TipoComida.Vegetariana);
+                        return TipoComida.Vegetariana;
+                    }
+                case 2:
+                    {
+                        Console.WriteLine(TipoComida.Vegana);
+                        return TipoComida.Vegana;
+                    }
+                case 3:
+                    {
+                        Console.WriteLine(TipoComida.Carnivora);
+                        return TipoComida.Carnivora;
+                    }
+                case 4:
+                    {
+                        Console.WriteLine(TipoComida.Mariscos);
+                        return TipoComida.Mariscos;
+                    }
+                case 5:
+                    {
+                        Console.WriteLine(TipoComida.Mixta);
+                        return TipoComida.Mixta;
+                    }
+                default:
+                    {
+                        Console.WriteLine("El valor ingresado no equivale a un tipo de comida");
+                        return TipoComida.Desconocida;
+                    }
+            }
+        }
+
+        private NivelDificultad CalcularDificultad()
+        {
+            Console.WriteLine("Que dificultad tiene el plato?");
+            Console.WriteLine("1-Facil");
+            Console.WriteLine("2-Intermedio");
+            Console.WriteLine("3-Avanzado");
+            
+
+            int menu = int.Parse(Console.ReadLine());
+            switch (menu)
+            {
+                case 1:
+                    {
+                        Console.WriteLine(NivelDificultad.Facil);
+                        return NivelDificultad.Facil;
+                    }
+                case 2:
+                    {
+                        Console.WriteLine(NivelDificultad.Intermedio);
+                        return NivelDificultad.Intermedio;
+                    }
+                case 3:
+                    {
+                        Console.WriteLine(NivelDificultad.Avanzado);
+                        return NivelDificultad.Avanzado;
+                    }
+                default:
+                    {
+                        Console.WriteLine("El valor ingresado no equivale a una dificultad");
+                        return NivelDificultad.Desconocido;
+                    }
+            }
+
+        
+        }
+
+
         private EstadoOrden CalcularEstadoOrden()
         {
             Console.WriteLine("En que estado se encuentra la orden?");
@@ -23,8 +107,8 @@ namespace SistemaRestaurante
             Console.WriteLine("3-Listo");
             Console.WriteLine("4-Entregado");
 
-            int estado_orden_menu = int.Parse(Console.ReadLine());
-            switch (estado_orden_menu)
+            int menu = int.Parse(Console.ReadLine());
+            switch (menu)
             {
                 case 1:
                     {
