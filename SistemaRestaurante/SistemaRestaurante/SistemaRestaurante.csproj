@@ -48,7 +48,6 @@
     <Compile Include="Enums\TipoComida.cs" />
     <Compile Include="Interfaces\IPreparable.cs" />
     <Compile Include="Modelos\Entrada.cs" />
-    <Compile Include="Modelos\modeloprueba.cs" />
     <Compile Include="Modelos\Plato.cs" />
     <Compile Include="Modelos\PlatoPrincipal.cs" />
     <Compile Include="Modelos\Postre.cs" />
