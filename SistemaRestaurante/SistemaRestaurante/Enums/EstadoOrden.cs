@@ -8,6 +8,6 @@ namespace SistemaRestaurante.Enums
 {
     public enum  EstadoOrden
     {
-        Pediente, Preparado, Listo, Entregado 
+        Pediente, Preparado, Listo, Entregado, Desconocido
     }
 }

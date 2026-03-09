@@ -8,6 +8,6 @@ namespace SistemaRestaurante.Enums
 {
     public enum TipoComida
     {
-        Vegetariana, Vegana, Carnivora, Mariscos, Mixta
+        Vegetariana, Vegana, Carnivora, Mariscos, Mixta, Desconocida
     }
 }
