@@ -44,10 +44,16 @@ namespace SistemaRestaurante
                 case 4:
                     {
                         Console.WriteLine(EstadoOrden.Entregado);
-                        return EstadoOrden.Entregado
+                        return EstadoOrden.Entregado; 
+                    }
+
+                default:
+                    {
+                        Console.WriteLine(EstadoOrden.Desconocido);
+                        return EstadoOrden.Entregado;
                     }
             }
-            return EstadoOrden;
+            
         }
     }
 }

@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\",
+  "WorkspaceRootPath": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\modelos\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\modelos\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanito\\documents\\github\\programacion-iii\\sistemarestaurante\\sistemarestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\enums\\estadoorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\enums\\estadoorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\enums\\estadoorden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\enums\\niveldificultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanito\\documents\\github\\programacion-iii\\sistemarestaurante\\sistemarestaurante\\modelos\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\modelos\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\enums\\niveldificultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\enums\\niveldificultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\enums\\tipocomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\enums\\tipocomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\enums\\tipocomida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\modelos\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\modelos\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\modelos\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\modelos\\platoprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\modelos\\platoprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\modelos\\platoprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\interfaces\\ipreparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\interfaces\\ipreparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\interfaces\\ipreparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\sistemarestaurante\\sistemarestaurante\\modelos\\postre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\sistemarestaurante\\modelos\\postre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FA20CD6-E500-43A5-ADF5-EDE51401B200}|SistemaRestaurante\\SistemaRestaurante.csproj|solutionrelative:sistemarestaurante\\modelos\\postre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,13 +50,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EstadoOrden.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\EstadoOrden.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\EstadoOrden.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Enums\\EstadoOrden.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\EstadoOrden.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\EstadoOrden.cs",
               "RelativeToolTip": "SistemaRestaurante\\Enums\\EstadoOrden.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T13:53:32.041Z",
               "EditorCaption": ""
@@ -65,24 +65,23 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NivelDificultad.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\NivelDificultad.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\NivelDificultad.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Enums\\NivelDificultad.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\NivelDificultad.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\NivelDificultad.cs",
               "RelativeToolTip": "SistemaRestaurante\\Enums\\NivelDificultad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:53:24.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:53:24.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Program.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Program.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Program.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Program.cs",
               "RelativeToolTip": "SistemaRestaurante\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwC4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T13:51:48.602Z",
               "EditorCaption": ""
@@ -91,66 +90,61 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TipoComida.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\TipoComida.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\TipoComida.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Enums\\TipoComida.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\TipoComida.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Enums\\TipoComida.cs",
               "RelativeToolTip": "SistemaRestaurante\\Enums\\TipoComida.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:53:15.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:53:15.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Entrada.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Entrada.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Entrada.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Modelos\\Entrada.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Entrada.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Entrada.cs",
               "RelativeToolTip": "SistemaRestaurante\\Modelos\\Entrada.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:54:12.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:54:12.007Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "PlatoPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\PlatoPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\PlatoPrincipal.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Modelos\\PlatoPrincipal.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\PlatoPrincipal.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\PlatoPrincipal.cs",
               "RelativeToolTip": "SistemaRestaurante\\Modelos\\PlatoPrincipal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:54:33.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:54:33.165Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "IPreparable.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Interfaces\\IPreparable.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Interfaces\\IPreparable.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Interfaces\\IPreparable.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Interfaces\\IPreparable.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Interfaces\\IPreparable.cs",
               "RelativeToolTip": "SistemaRestaurante\\Interfaces\\IPreparable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:53:41.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:53:41.158Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Postre.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Postre.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Postre.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Modelos\\Postre.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Postre.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Postre.cs",
               "RelativeToolTip": "SistemaRestaurante\\Modelos\\Postre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:54:44.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:54:44.516Z"
             }
           ]
         },
@@ -160,11 +154,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Plato.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Plato.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Plato.cs",
               "RelativeDocumentMoniker": "SistemaRestaurante\\Modelos\\Plato.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Plato.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\SistemaRestaurante\\SistemaRestaurante\\Modelos\\Plato.cs",
               "RelativeToolTip": "SistemaRestaurante\\Modelos\\Plato.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
