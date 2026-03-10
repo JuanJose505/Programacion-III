@@ -13,10 +13,15 @@ namespace SistemaRestaurante
     {
         static void Main(string[] args)
         {
-            Entrada entrada1 = new Entrada("123", "Pan", "El pan es tal tal tal", 5000, TipoComida.Vegetariana, NivelDificultad.Intermedio, EstadoOrden.Preparado, true, 5);
-            entrada1.CalcularTiempoPreparacion();
+            Entrada entrada1 = new Entrada("123", "Pan", "El pan es tal tal tal", 5000, TipoComida.Vegetariana, NivelDificultad.Intermedio, EstadoOrden.Preparado, false, 5);
             entrada1.MostrarInformacionNutricional();
+            entrada1.CalcularTiempoPreparacion();
+            
 
+            PlatoPrincipal plato1 = new PlatoPrincipal("0404", "Pastas", "Las pastas son ricas jeje", 50000, TipoComida.Carnivora, NivelDificultad.Avanzado, EstadoOrden.Pediente, "Albondigas", true);
+            plato1.MostrarInformacionNutricional();
+            plato1.CalcularTiempoPreparacion();
+            
             
         }
         

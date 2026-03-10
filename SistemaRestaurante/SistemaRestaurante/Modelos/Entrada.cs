@@ -34,18 +34,23 @@ namespace SistemaRestaurante.Modelos
         {
             DateTime tiempo = DateTime.Now;
 
-            if (Esfria)
+            if (Esfria == true)
             {
                 tiempo = tiempo.AddMinutes(10);
-                Console.WriteLine($"El tiempo de preparacion es de= {tiempo}");
+                Console.WriteLine($"Su pedido sale a las  = {tiempo.ToString("HH:mm:ss")}");
                 return tiempo;
-            } 
-            else 
+
+            }
+            else if (Esfria == false)
             {
                 tiempo = tiempo.AddMinutes(20);
-                Console.WriteLine($"El tiempo es de {tiempo}");
+                Console.WriteLine($"Su pedido sale a las = {tiempo.ToString("HH:mm:ss")}");
                 return tiempo;
             } 
+            else
+            {
+                return tiempo;
+            }
 
         }
 

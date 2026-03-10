@@ -8,6 +8,6 @@ namespace SistemaRestaurante.Enums
 {
     public enum NivelDificultad
     {
-        Facil, Intermedio, Avanzado, Desconocido
+        Facil = 1, Intermedio = 2, Avanzado = 3, Desconocido
     }
 }
