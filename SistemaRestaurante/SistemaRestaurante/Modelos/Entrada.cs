@@ -54,11 +54,7 @@ namespace SistemaRestaurante.Modelos
 
         }
 
-        public void GenerarOrdenCocina()
-        {
-            /////VACIO////
-        }
-
+  
         public override void MostrarInformacionNutricional()
         {
             base.MostrarInformacionNutricional();
@@ -103,6 +99,10 @@ namespace SistemaRestaurante.Modelos
                 return PrecioBase;
             }
         }
-        
+        public void GenerarOrdenCocina()
+        {
+            /////VACIO////
+        }
+
     }
 }

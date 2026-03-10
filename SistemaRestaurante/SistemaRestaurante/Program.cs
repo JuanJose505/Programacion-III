@@ -15,14 +15,19 @@ namespace SistemaRestaurante
         {
             Entrada entrada1 = new Entrada("123", "Pan", "El pan es tal tal tal", 5000, TipoComida.Vegetariana, NivelDificultad.Intermedio, EstadoOrden.Preparado, false, 5);
             entrada1.MostrarInformacionNutricional();
+            
             entrada1.CalcularTiempoPreparacion();
             
 
             PlatoPrincipal plato1 = new PlatoPrincipal("0404", "Pastas", "Las pastas son ricas jeje", 50000, TipoComida.Carnivora, NivelDificultad.Avanzado, EstadoOrden.Pediente, "Albondigas", true);
             plato1.MostrarInformacionNutricional();
+         
             plato1.CalcularTiempoPreparacion();
-            
-            
+
+            Postre postre1 = new Postre("0303", "Helado", "Helado de puggin", 3000, TipoComida.Desconocida, NivelDificultad.Intermedio, EstadoOrden.Listo, 100, true);
+            postre1.MostrarInformacionNutricional();
+
+            postre1.CalcularTiempoPreparacion();
         }
         
 
