@@ -1,0 +1,7 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\bin\Debug\Reto1.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\bin\Debug\Reto1.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\bin\Debug\Reto1.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\obj\Debug\Reto1.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\obj\Debug\Reto1.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\obj\Debug\Reto1.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto1\Reto1\obj\Debug\Reto1.pdb
