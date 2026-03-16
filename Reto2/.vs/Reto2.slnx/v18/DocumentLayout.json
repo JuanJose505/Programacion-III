@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\",
+  "WorkspaceRootPath": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\reto2\\reto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|solutionrelative:reto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\reto2\\enum\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|solutionrelative:reto2\\enum\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\reto2\\reto2\\modelos\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|c:\\users\\juanito\\documents\\github\\programacion-iii\\reto2\\reto2\\modelos\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|solutionrelative:reto2\\modelos\\paquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\reto2\\reto2\\enum\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|solutionrelative:reto2\\enum\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|c:\\users\\juanito\\documents\\github\\programacion-iii\\reto2\\reto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9C33130-01F7-4FDE-A396-FAA5B919136F}|Reto2\\Reto2.csproj|solutionrelative:reto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 202,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Tipo.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\Reto2\\Enum\\Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\Reto2\\Enum\\Tipo.cs",
               "RelativeDocumentMoniker": "Reto2\\Enum\\Tipo.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\Reto2\\Enum\\Tipo.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\Reto2\\Enum\\Tipo.cs",
               "RelativeToolTip": "Reto2\\Enum\\Tipo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Paquete.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\Reto2\\Modelos\\Paquete.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\Reto2\\Modelos\\Paquete.cs",
               "RelativeDocumentMoniker": "Reto2\\Modelos\\Paquete.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\Reto2\\Modelos\\Paquete.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\Reto2\\Modelos\\Paquete.cs",
               "RelativeToolTip": "Reto2\\Modelos\\Paquete.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:27:40.396Z",
               "EditorCaption": ""
@@ -58,13 +58,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\Reto2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\Reto2\\Program.cs",
               "RelativeDocumentMoniker": "Reto2\\Program.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Reto2\\Reto2\\Program.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\Reto2\\Reto2\\Program.cs",
               "RelativeToolTip": "Reto2\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:27:11.078Z",
               "EditorCaption": ""
