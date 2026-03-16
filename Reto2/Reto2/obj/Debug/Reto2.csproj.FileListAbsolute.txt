@@ -1,0 +1,7 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\bin\Debug\Reto2.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\bin\Debug\Reto2.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\bin\Debug\Reto2.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\obj\Debug\Reto2.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\obj\Debug\Reto2.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\obj\Debug\Reto2.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Reto2\Reto2\obj\Debug\Reto2.pdb
