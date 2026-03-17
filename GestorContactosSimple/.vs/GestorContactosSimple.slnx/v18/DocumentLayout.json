@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\GestorContactosSimple\\",
+  "WorkspaceRootPath": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\GestorContactosSimple\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{541A069F-A224-4579-AF0D-370B6517A705}|GestorContactosSimple\\GestorContactosSimple.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\gestorcontactossimple\\gestorcontactossimple\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{541A069F-A224-4579-AF0D-370B6517A705}|GestorContactosSimple\\GestorContactosSimple.csproj|c:\\users\\juanito\\documents\\github\\programacion-iii\\gestorcontactossimple\\gestorcontactossimple\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541A069F-A224-4579-AF0D-370B6517A705}|GestorContactosSimple\\GestorContactosSimple.csproj|solutionrelative:gestorcontactossimple\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{541A069F-A224-4579-AF0D-370B6517A705}|GestorContactosSimple\\GestorContactosSimple.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\GestorContactosSimple\\gestorcontactossimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{541A069F-A224-4579-AF0D-370B6517A705}|GestorContactosSimple\\GestorContactosSimple.csproj|C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\GestorContactosSimple\\gestorcontactossimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{541A069F-A224-4579-AF0D-370B6517A705}|GestorContactosSimple\\GestorContactosSimple.csproj|solutionrelative:gestorcontactossimple\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Contacto.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\GestorContactosSimple\\GestorContactosSimple\\Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\GestorContactosSimple\\GestorContactosSimple\\Contacto.cs",
               "RelativeDocumentMoniker": "GestorContactosSimple\\Contacto.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\GestorContactosSimple\\GestorContactosSimple\\Contacto.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\GestorContactosSimple\\GestorContactosSimple\\Contacto.cs",
               "RelativeToolTip": "GestorContactosSimple\\Contacto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T13:10:51.858Z",
               "EditorCaption": ""
@@ -37,13 +37,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\GestorContactosSimple\\GestorContactosSimple\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\GestorContactosSimple\\GestorContactosSimple\\Program.cs",
               "RelativeDocumentMoniker": "GestorContactosSimple\\Program.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\GestorContactosSimple\\GestorContactosSimple\\Program.cs",
+              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\GestorContactosSimple\\GestorContactosSimple\\Program.cs",
               "RelativeToolTip": "GestorContactosSimple\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T13:10:00.484Z"
+              "WhenOpened": "2026-03-16T13:10:00.484Z",
+              "EditorCaption": ""
             }
           ]
         }

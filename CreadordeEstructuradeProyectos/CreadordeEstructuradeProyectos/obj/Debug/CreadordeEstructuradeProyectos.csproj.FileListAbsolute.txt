@@ -1,0 +1,7 @@
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\bin\Debug\CreadordeEstructuradeProyectos.exe.config
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\bin\Debug\CreadordeEstructuradeProyectos.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\bin\Debug\CreadordeEstructuradeProyectos.pdb
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\obj\Debug\CreadordeEstructuradeProyectos.csproj.AssemblyReference.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\obj\Debug\CreadordeEstructuradeProyectos.csproj.CoreCompileInputs.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\obj\Debug\CreadordeEstructuradeProyectos.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\CreadordeEstructuradeProyectos\CreadordeEstructuradeProyectos\obj\Debug\CreadordeEstructuradeProyectos.pdb

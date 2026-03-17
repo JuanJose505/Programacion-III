@@ -1,0 +1,7 @@
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\bin\Debug\GestorContactosSimple.exe.config
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\bin\Debug\GestorContactosSimple.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\bin\Debug\GestorContactosSimple.pdb
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\obj\Debug\GestorContactosSimple.csproj.AssemblyReference.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\obj\Debug\GestorContactosSimple.csproj.CoreCompileInputs.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\obj\Debug\GestorContactosSimple.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\GestorContactosSimple\GestorContactosSimple\obj\Debug\GestorContactosSimple.pdb

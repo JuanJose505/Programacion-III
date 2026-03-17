@@ -10,6 +10,7 @@ namespace GestorContactosSimple
     {
         static void Main(string[] args)
         {
+            Contacto.Ejecutar();
         }
     }
 }
