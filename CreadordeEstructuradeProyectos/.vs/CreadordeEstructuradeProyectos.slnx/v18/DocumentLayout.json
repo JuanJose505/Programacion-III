@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\CreadordeEstructuradeProyectos\\",
+  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\CreadordeEstructuradeProyectos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50086A03-73B3-4352-B461-D390A366090F}|CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos.csproj|c:\\users\\juanito\\documents\\github\\programacion-iii\\creadordeestructuradeproyectos\\creadordeestructuradeproyectos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{50086A03-73B3-4352-B461-D390A366090F}|CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\creadordeestructuradeproyectos\\creadordeestructuradeproyectos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50086A03-73B3-4352-B461-D390A366090F}|CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos.csproj|solutionrelative:creadordeestructuradeproyectos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos\\Program.cs",
               "RelativeDocumentMoniker": "CreadordeEstructuradeProyectos\\Program.cs",
-              "ToolTip": "C:\\Users\\Juanito\\Documents\\GitHub\\Programacion-III\\CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos\\Program.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\CreadordeEstructuradeProyectos\\CreadordeEstructuradeProyectos\\Program.cs",
               "RelativeToolTip": "CreadordeEstructuradeProyectos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T00:11:27.574Z",
               "EditorCaption": ""
