@@ -1,0 +1,7 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\bin\Debug\CreditodeVIviendaMiCasa.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\bin\Debug\CreditodeVIviendaMiCasa.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\bin\Debug\CreditodeVIviendaMiCasa.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\obj\Debug\CreditodeVIviendaMiCasa.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\obj\Debug\CreditodeVIviendaMiCasa.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\obj\Debug\CreditodeVIviendaMiCasa.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\CreditodeVIviendaMiCasa\CreditodeVIviendaMiCasa\obj\Debug\CreditodeVIviendaMiCasa.pdb

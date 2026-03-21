@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\CreditodeVIviendaMiCasa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6271D32F-1637-4F28-875D-B238FA319877}|CreditodeVIviendaMiCasa\\CreditodeVIviendaMiCasa.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\creditodeviviendamicasa\\creditodeviviendamicasa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6271D32F-1637-4F28-875D-B238FA319877}|CreditodeVIviendaMiCasa\\CreditodeVIviendaMiCasa.csproj|solutionrelative:creditodeviviendamicasa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\CreditodeVIviendaMiCasa\\CreditodeVIviendaMiCasa\\Program.cs",
+              "RelativeDocumentMoniker": "CreditodeVIviendaMiCasa\\Program.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\CreditodeVIviendaMiCasa\\CreditodeVIviendaMiCasa\\Program.cs",
+              "RelativeToolTip": "CreditodeVIviendaMiCasa\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T17:49:45.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
