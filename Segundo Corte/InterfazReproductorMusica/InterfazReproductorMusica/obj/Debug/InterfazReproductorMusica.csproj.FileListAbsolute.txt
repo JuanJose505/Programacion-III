@@ -1,0 +1,15 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\bin\Debug\InterfazReproductorMusica.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\bin\Debug\InterfazReproductorMusica.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\bin\Debug\InterfazReproductorMusica.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\bin\Debug\Interop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\Interop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InterfazReproductorMusica\InterfazReproductorMusica\obj\Debug\InterfazReproductorMusica.csproj.ResolveComReference.cache
