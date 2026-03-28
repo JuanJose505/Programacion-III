@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\bin\Debug\PaneldeConfiguracionPestañas.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\bin\Debug\PaneldeConfiguracionPestañas.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\bin\Debug\PaneldeConfiguracionPestañas.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\PaneldeConfiguracionPestañas\PaneldeConfiguracionPestañas\obj\Debug\PaneldeConfiguracionPestañas.pdb

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\PaneldeConfiguracionPesta\u00F1as\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C9FDFC9-6559-46EF-8F42-7794CC1326B0}|PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\paneldeconfiguracionpesta\u00F1as\\paneldeconfiguracionpesta\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C9FDFC9-6559-46EF-8F42-7794CC1326B0}|PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as.csproj|solutionrelative:paneldeconfiguracionpesta\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C9FDFC9-6559-46EF-8F42-7794CC1326B0}|PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\paneldeconfiguracionpesta\u00F1as\\paneldeconfiguracionpesta\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C9FDFC9-6559-46EF-8F42-7794CC1326B0}|PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as.csproj|solutionrelative:paneldeconfiguracionpesta\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as\\Form1.cs",
+              "RelativeDocumentMoniker": "PaneldeConfiguracionPesta\u00F1as\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as\\Form1.cs",
+              "RelativeToolTip": "PaneldeConfiguracionPesta\u00F1as\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T02:33:22.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as\\Form1.cs",
+              "RelativeDocumentMoniker": "PaneldeConfiguracionPesta\u00F1as\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\PaneldeConfiguracionPesta\u00F1as\\PaneldeConfiguracionPesta\u00F1as\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PaneldeConfiguracionPesta\u00F1as\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T02:31:52.452Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
