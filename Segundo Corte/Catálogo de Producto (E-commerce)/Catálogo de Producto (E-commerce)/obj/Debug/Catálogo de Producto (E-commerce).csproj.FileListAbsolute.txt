@@ -1,0 +1,15 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\bin\Debug\Catálogo de Producto (E-commerce).exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\bin\Debug\Catálogo de Producto (E-commerce).exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\bin\Debug\Catálogo de Producto (E-commerce).pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo de Producto (E-commerce).csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo_de_Producto__E_commerce_.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo_de_Producto__E_commerce_.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo de Producto (E-commerce).csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo de Producto (E-commerce).csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo de Producto (E-commerce).exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo de Producto (E-commerce).pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\bin\Debug\Interop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Interop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Catálogo de Producto (E-commerce)\Catálogo de Producto (E-commerce)\obj\Debug\Catálogo de Producto (E-commerce).csproj.ResolveComReference.cache
