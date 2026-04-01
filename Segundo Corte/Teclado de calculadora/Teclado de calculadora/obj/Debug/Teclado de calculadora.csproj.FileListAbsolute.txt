@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\bin\Debug\Teclado de calculadora.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\bin\Debug\Teclado de calculadora.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\bin\Debug\Teclado de calculadora.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado de calculadora.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado_de_calculadora.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado_de_calculadora.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado de calculadora.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado de calculadora.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado de calculadora.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Teclado de calculadora\Teclado de calculadora\obj\Debug\Teclado de calculadora.pdb

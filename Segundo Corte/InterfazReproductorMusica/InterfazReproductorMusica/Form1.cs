@@ -65,5 +65,10 @@ namespace InterfazReproductorMusica
                 progressBar1.Value = (int)((posicion / duracion) * 100);
             }
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
