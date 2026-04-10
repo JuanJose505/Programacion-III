@@ -48,6 +48,7 @@
             this.lblErrorEmail = new System.Windows.Forms.Label();
             this.lblErrorIdentificacion = new System.Windows.Forms.Label();
             this.lblRegistro = new System.Windows.Forms.Label();
+            this.lblErrorDepartamento = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numSueldoBase)).BeginInit();
             this.SuspendLayout();
             // 
@@ -267,11 +268,24 @@
             this.lblRegistro.Text = "Sueldo Neto";
             this.lblRegistro.Visible = false;
             // 
+            // lblErrorDepartamento
+            // 
+            this.lblErrorDepartamento.AutoSize = true;
+            this.lblErrorDepartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorDepartamento.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorDepartamento.Location = new System.Drawing.Point(178, 189);
+            this.lblErrorDepartamento.Name = "lblErrorDepartamento";
+            this.lblErrorDepartamento.Size = new System.Drawing.Size(11, 13);
+            this.lblErrorDepartamento.TabIndex = 20;
+            this.lblErrorDepartamento.Text = "*";
+            this.lblErrorDepartamento.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblErrorDepartamento);
             this.Controls.Add(this.lblRegistro);
             this.Controls.Add(this.lblErrorIdentificacion);
             this.Controls.Add(this.lblErrorEmail);
@@ -321,6 +335,7 @@
         private System.Windows.Forms.Label lblErrorEmail;
         private System.Windows.Forms.Label lblErrorIdentificacion;
         private System.Windows.Forms.Label lblRegistro;
+        private System.Windows.Forms.Label lblErrorDepartamento;
     }
 }
 

@@ -30,6 +30,7 @@ namespace Sistema_de_Registro_de_Empleados
             bool validate_email = false;
             bool validate_id = false;
             bool validation = false;
+            bool validate_departamento = false;
 
 
             if (txtNombres.Text == "")
@@ -75,7 +76,7 @@ namespace Sistema_de_Registro_de_Empleados
             }
             else
             {
-                
+
                 if (txtIdentificacion.Text.Length == 10)
                 {
                     lblErrorIdentificacion.Visible = false;
@@ -88,7 +89,20 @@ namespace Sistema_de_Registro_de_Empleados
                 }
             }
 
-            if (validate_name == true && validate_apellidos == true && validate_email == true && validate_id == true)
+            if (cmbDepartamento.SelectedIndex == -1)
+            {
+                lblErrorDepartamento.Visible = true;
+                lblErrorDepartamento.Text = "Seleccione un departamento!";
+
+            }
+            else
+            {
+                lblErrorDepartamento.Visible = false;
+                validate_departamento = true;
+            }
+
+
+            if (validate_name == true && validate_apellidos == true && validate_email == true && validate_id == true && validate_departamento == true)
             {
                 validation = true;
             }
