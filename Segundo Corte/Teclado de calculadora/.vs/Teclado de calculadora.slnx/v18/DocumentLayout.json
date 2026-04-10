@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\teclado de calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|solutionrelative:teclado de calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\teclado de calculadora\\teclado de calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|solutionrelative:teclado de calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\teclado de calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|solutionrelative:teclado de calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\teclado de calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45D5AA81-93D3-4CCA-93EB-9DAC39393C83}|Teclado de calculadora\\Teclado de calculadora.csproj|solutionrelative:teclado de calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\Teclado de calculadora\\Program.cs",
               "RelativeDocumentMoniker": "Teclado de calculadora\\Program.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\Teclado de calculadora\\Form1.cs",
               "RelativeDocumentMoniker": "Teclado de calculadora\\Form1.cs",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\Teclado de calculadora\\Form1.cs",
               "RelativeDocumentMoniker": "Teclado de calculadora\\Form1.cs",
               "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Teclado de calculadora\\Teclado de calculadora\\Form1.cs",
               "RelativeToolTip": "Teclado de calculadora\\Form1.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAcwJgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAA0wJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-31T03:58:20.673Z",
               "EditorCaption": ""

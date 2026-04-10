@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\bin\Debug\InformacionPersonal2.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\bin\Debug\InformacionPersonal2.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\bin\Debug\InformacionPersonal2.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\InformacionPersonal2\InformacionPersonal2\obj\Debug\InformacionPersonal2.pdb
