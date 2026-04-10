@@ -40,9 +40,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.cmbDepartamento = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblSueldoNeto = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.lblErrorNombre = new System.Windows.Forms.Label();
+            this.lblErrorApellidos = new System.Windows.Forms.Label();
+            this.lblErrorEmail = new System.Windows.Forms.Label();
+            this.lblErrorIdentificacion = new System.Windows.Forms.Label();
+            this.lblRegistro = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numSueldoBase)).BeginInit();
             this.SuspendLayout();
             // 
@@ -170,17 +175,17 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Departamento";
             // 
-            // label7
+            // lblSueldoNeto
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label7.Location = new System.Drawing.Point(12, 280);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 24);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Sueldo Neto";
-            this.label7.Visible = false;
+            this.lblSueldoNeto.AutoSize = true;
+            this.lblSueldoNeto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSueldoNeto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblSueldoNeto.Location = new System.Drawing.Point(10, 362);
+            this.lblSueldoNeto.Name = "lblSueldoNeto";
+            this.lblSueldoNeto.Size = new System.Drawing.Size(126, 24);
+            this.lblSueldoNeto.TabIndex = 12;
+            this.lblSueldoNeto.Text = "Sueldo Neto";
+            this.lblSueldoNeto.Visible = false;
             // 
             // button1
             // 
@@ -200,15 +205,81 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "Limpiar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // lblErrorNombre
+            // 
+            this.lblErrorNombre.AutoSize = true;
+            this.lblErrorNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorNombre.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorNombre.Location = new System.Drawing.Point(12, 80);
+            this.lblErrorNombre.Name = "lblErrorNombre";
+            this.lblErrorNombre.Size = new System.Drawing.Size(11, 13);
+            this.lblErrorNombre.TabIndex = 15;
+            this.lblErrorNombre.Text = "*";
+            this.lblErrorNombre.Visible = false;
+            // 
+            // lblErrorApellidos
+            // 
+            this.lblErrorApellidos.AutoSize = true;
+            this.lblErrorApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorApellidos.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorApellidos.Location = new System.Drawing.Point(178, 80);
+            this.lblErrorApellidos.Name = "lblErrorApellidos";
+            this.lblErrorApellidos.Size = new System.Drawing.Size(11, 13);
+            this.lblErrorApellidos.TabIndex = 16;
+            this.lblErrorApellidos.Text = "*";
+            this.lblErrorApellidos.Visible = false;
+            // 
+            // lblErrorEmail
+            // 
+            this.lblErrorEmail.AutoSize = true;
+            this.lblErrorEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorEmail.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorEmail.Location = new System.Drawing.Point(346, 80);
+            this.lblErrorEmail.Name = "lblErrorEmail";
+            this.lblErrorEmail.Size = new System.Drawing.Size(11, 13);
+            this.lblErrorEmail.TabIndex = 17;
+            this.lblErrorEmail.Text = "*";
+            this.lblErrorEmail.Visible = false;
+            // 
+            // lblErrorIdentificacion
+            // 
+            this.lblErrorIdentificacion.AutoSize = true;
+            this.lblErrorIdentificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblErrorIdentificacion.ForeColor = System.Drawing.Color.Red;
+            this.lblErrorIdentificacion.Location = new System.Drawing.Point(519, 80);
+            this.lblErrorIdentificacion.Name = "lblErrorIdentificacion";
+            this.lblErrorIdentificacion.Size = new System.Drawing.Size(11, 13);
+            this.lblErrorIdentificacion.TabIndex = 18;
+            this.lblErrorIdentificacion.Text = "*";
+            this.lblErrorIdentificacion.Visible = false;
+            // 
+            // lblRegistro
+            // 
+            this.lblRegistro.AutoSize = true;
+            this.lblRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblRegistro.Location = new System.Drawing.Point(12, 280);
+            this.lblRegistro.Name = "lblRegistro";
+            this.lblRegistro.Size = new System.Drawing.Size(126, 24);
+            this.lblRegistro.TabIndex = 19;
+            this.lblRegistro.Text = "Sueldo Neto";
+            this.lblRegistro.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblRegistro);
+            this.Controls.Add(this.lblErrorIdentificacion);
+            this.Controls.Add(this.lblErrorEmail);
+            this.Controls.Add(this.lblErrorApellidos);
+            this.Controls.Add(this.lblErrorNombre);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblSueldoNeto);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.cmbDepartamento);
             this.Controls.Add(this.label5);
@@ -241,10 +312,15 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbDepartamento;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblSueldoNeto;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtNombres;
+        private System.Windows.Forms.Label lblErrorNombre;
+        private System.Windows.Forms.Label lblErrorApellidos;
+        private System.Windows.Forms.Label lblErrorEmail;
+        private System.Windows.Forms.Label lblErrorIdentificacion;
+        private System.Windows.Forms.Label lblRegistro;
     }
 }
 
