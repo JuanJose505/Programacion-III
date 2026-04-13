@@ -1,0 +1,10 @@
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\bin\Debug\Registro de Clientes.exe.config
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\bin\Debug\Registro de Clientes.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\bin\Debug\Registro de Clientes.pdb
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro de Clientes.csproj.AssemblyReference.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro_de_Clientes.Form1.resources
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro_de_Clientes.Properties.Resources.resources
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro de Clientes.csproj.GenerateResource.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro de Clientes.csproj.CoreCompileInputs.cache
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro de Clientes.exe
+C:\Users\Juanito\Documents\GitHub\Programacion-III\Registro de Clientes\Registro de Clientes\obj\Debug\Registro de Clientes.pdb

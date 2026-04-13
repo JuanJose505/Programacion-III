@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.ComTypes;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Registro_de_Clientes
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            List<string> clientes = new List<string>();
+            bool validatedni = false;
+            bool validatecity = false;
+            bool validate = false;
+            if (txtCodigo.Text != "")
+            {
+                validatedni = true;
+            }
+
+            if (txtCiudad.Text != "")
+            {
+                validatecity = true;
+            }
+
+            if (validatedni && validatecity)
+            {
+                validate = true;
+            }
+
+            if (validate)
+            {
+                lblClienteRegistrado.Visible = true;
+                lblClienteRegistrado.Text = "Cliente registrado!";
+
+                RegistrarCliente();
+                
+            }
+            else
+            {
+                lblClienteRegistrado.Visible = false;
+            }
+            
+        }
+
+        private void RegistrarCliente()
+        {
+            string ruta = "clientes.csv";
+            string linea = $"{txtNombre.Text};{txtCodigo.Text};{txtCiudad.Text}";
+
+            File.AppendAllText(ruta, linea + Environment.NewLine);
+
+
+        }
+
+        private void btnCargar_Click(object sender, EventArgs e)
+        {
+            lbClientesRegistrados.Items.Clear();
+            string ruta = "clientes.csv";
+            string[] area = File.ReadAllLines(ruta);
+
+            for (int i = 0; i < area.Length; i++)
+            {
+                string[] campos = area[i].Split(';');
+                if (campos.Length >= 3)
+                {
+                    string nombre = campos[0].Trim();
+                    int codigo = int.Parse(campos[1].Trim());
+                    string ciudad = campos[2].Trim();
+
+                    string clientes = $"{nombre};{codigo};{ciudad}";
+                    lbClientesRegistrados.Items.Add(clientes);
+                }
+               
+            }
+        }
+    }
+}
