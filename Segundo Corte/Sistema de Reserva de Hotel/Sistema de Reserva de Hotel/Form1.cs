@@ -42,9 +42,37 @@ namespace Sistema_de_Reserva_de_Hotel
                 validatesalida = true;
             }
 
-            TimeSpan estancia = (dtmEntrada.Value - dtmSalida.Value);
+            TimeSpan estancia = (dtmSalida.Value - dtmEntrada.Value);
             int dias = estancia.Days;
 
+            int costobase = dias * 50;
+            int costoextra = 0;
+            int personas = (int)numPersonas.Value;
+            if (personas > 1)
+            {
+                costoextra = (personas - 1) * 15 * dias;
+            }
+
+            int costoServicios = 0;
+            string listaServicios = "";
+
+            foreach (var item in clbServicios.CheckedItems)
+            {
+                costoServicios += 10 * dias;
+                listaServicios += item.ToString() + ", ";
+            }
+
+            int total = costobase + costoextra + costoServicios;
+
+
+            rtbResumen.Text =
+                "=RESUMEN DE RESERVA=\n" +
+                $"Cliente: {txtCliente.Text}\n" +
+                $"Estancia: {dias} noches\n" +
+                $"Personas: {personas}\n" +
+                $"Servicios: {listaServicios}\n" +
+                "------------------------------------\n" +
+                $"TOTAL A PAGAR {total}";
         }
     }
 }
