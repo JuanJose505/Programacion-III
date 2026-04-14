@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{173AF9F1-8655-45A2-90CA-39763A96ABB5}|Control de Ventas Diarias\\Control de Ventas Diarias.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\control de ventas diarias\\control de ventas diarias\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{173AF9F1-8655-45A2-90CA-39763A96ABB5}|Control de Ventas Diarias\\Control de Ventas Diarias.csproj|solutionrelative:control de ventas diarias\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173AF9F1-8655-45A2-90CA-39763A96ABB5}|Control de Ventas Diarias\\Control de Ventas Diarias.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\control de ventas diarias\\control de ventas diarias\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173AF9F1-8655-45A2-90CA-39763A96ABB5}|Control de Ventas Diarias\\Control de Ventas Diarias.csproj|solutionrelative:control de ventas diarias\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Control de Ventas Diarias\\Control de Ventas Diarias\\Form1.cs",
+              "RelativeDocumentMoniker": "Control de Ventas Diarias\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Control de Ventas Diarias\\Control de Ventas Diarias\\Form1.cs",
+              "RelativeToolTip": "Control de Ventas Diarias\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:10:26.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
