@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\bin\Debug\Gestión de Inventario (CSV).exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\bin\Debug\Gestión de Inventario (CSV).exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\bin\Debug\Gestión de Inventario (CSV).pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión de Inventario (CSV).csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión_de_Inventario__CSV_.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión_de_Inventario__CSV_.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión de Inventario (CSV).csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión de Inventario (CSV).csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión de Inventario (CSV).exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Gestión de Inventario (CSV)\Gestión de Inventario (CSV)\obj\Debug\Gestión de Inventario (CSV).pdb

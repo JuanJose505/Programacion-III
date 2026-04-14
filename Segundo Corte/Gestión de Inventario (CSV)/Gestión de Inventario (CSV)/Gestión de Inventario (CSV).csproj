@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6150E1EE-48C5-4CBE-ABC4-51B801B3D1C3}</ProjectGuid>
+    <ProjectGuid>{D215BAEB-54E5-45DF-896C-B5DE89F04D98}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Gestión_de_Inventario_de_Productos</RootNamespace>
-    <AssemblyName>Gestión de Inventario de Productos</AssemblyName>
+    <RootNamespace>Gestión_de_Inventario__CSV_</RootNamespace>
+    <AssemblyName>Gestión de Inventario %28CSV%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
-    </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
