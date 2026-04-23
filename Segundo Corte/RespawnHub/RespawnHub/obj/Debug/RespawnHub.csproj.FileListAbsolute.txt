@@ -1,0 +1,5 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Menu.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.csproj.CoreCompileInputs.cache
