@@ -2,10 +2,10 @@ C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\Respaw
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\bin\Debug\RespawnHub.exe
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\bin\Debug\RespawnHub.pdb
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.csproj.AssemblyReference.cache
-C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Form1.resources
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Properties.Resources.resources
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.csproj.GenerateResource.cache
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.csproj.CoreCompileInputs.cache
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.exe
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.pdb
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Forms.Usuarios.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Home.resources
