@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38CE60BC-D5A6-4CAD-8041-6C1BE2E2336C}</ProjectGuid>
+    <ProjectGuid>{8D5486DE-524B-409A-B0E0-8C979383C390}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>RespawnHub</RootNamespace>
     <AssemblyName>RespawnHub</AssemblyName>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,40 +49,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Biblioteca_estadisticas.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Biblioteca_estadisticas.Designer.cs">
-      <DependentUpon>Biblioteca_estadisticas.cs</DependentUpon>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Menu.cs">
+    <Compile Include="Forms\Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Sesiones_Juego.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Sesiones_Juego.Designer.cs">
-      <DependentUpon>Sesiones_Juego.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Usuarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Usuarios.Designer.cs">
-      <DependentUpon>Usuarios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Videojuegos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Videojuegos.Designer.cs">
-      <DependentUpon>Videojuegos.cs</DependentUpon>
+    <Compile Include="Forms\Usuario.Designer.cs">
+      <DependentUpon>Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Usuario.resx">
+      <DependentUpon>Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,7 +77,9 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -104,9 +94,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Clases\" />
-    <Folder Include="Datos\" />
-    <Folder Include="Helpers\" />
+    <None Include="Resources\image-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
