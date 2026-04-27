@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,7 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Models\Juego.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Views\Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,8 +100,6 @@
   <ItemGroup>
     <None Include="Resources\image-removebg-preview.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

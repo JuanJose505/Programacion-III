@@ -3,8 +3,10 @@
     "",
     "\\Segundo Corte",
     "\\Segundo Corte\\RespawnHub",
-    "\\Segundo Corte\\RespawnHub\\RespawnHub"
+    "\\Segundo Corte\\RespawnHub\\RespawnHub",
+    "\\Segundo Corte\\RespawnHub\\RespawnHub\\Views",
+    "\\Segundo Corte\\reto3"
   ],
-  "SelectedNode": "\\Segundo Corte\\RespawnHub\\RespawnHub\\Models",
+  "SelectedNode": "\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
   "PreviewInSolutionExplorer": false
 }
