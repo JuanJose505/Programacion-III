@@ -92,7 +92,7 @@ namespace RespawnHub.Forms
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            dgvUsuarios.EndEdit(); // MUY IMPORTANTE (termina edición)
+            dgvUsuarios.EndEdit(); 
 
             List<RespawnHub.Models.Usuario> lista = new List<RespawnHub.Models.Usuario>();
 
@@ -137,6 +137,14 @@ namespace RespawnHub.Forms
 
             dgvUsuarios.DataSource = null;
             dgvUsuarios.DataSource = filtrados;
+        }
+
+        private void btnSesionesdeJuego_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.FormClosed += (s, d) => Application.Exit();
+            this.Hide();
+            home.Show();
         }
     }
 }

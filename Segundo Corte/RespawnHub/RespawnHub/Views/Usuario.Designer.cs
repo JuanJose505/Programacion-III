@@ -60,6 +60,7 @@
             this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnSesionesdeJuego = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -92,6 +93,7 @@
             this.splitContainer1.Panel2.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress;
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
+            this.splitContainer1.Panel2.Controls.Add(this.btnSesionesdeJuego);
             this.splitContainer1.Size = new System.Drawing.Size(1007, 619);
             this.splitContainer1.SplitterDistance = 326;
             this.splitContainer1.TabIndex = 0;
@@ -115,7 +117,7 @@
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(269, 57);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(33, 28);
             this.btnBuscar.TabIndex = 5;
@@ -126,7 +128,7 @@
             // txtBuscar
             // 
             this.txtBuscar.Location = new System.Drawing.Point(24, 58);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(215, 26);
             this.txtBuscar.TabIndex = 4;
@@ -350,7 +352,7 @@
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -426,6 +428,17 @@
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnSesionesdeJuego
+            // 
+            this.btnSesionesdeJuego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSesionesdeJuego.Image = ((System.Drawing.Image)(resources.GetObject("btnSesionesdeJuego.Image")));
+            this.btnSesionesdeJuego.Location = new System.Drawing.Point(-34, 456);
+            this.btnSesionesdeJuego.Name = "btnSesionesdeJuego";
+            this.btnSesionesdeJuego.Size = new System.Drawing.Size(191, 172);
+            this.btnSesionesdeJuego.TabIndex = 7;
+            this.btnSesionesdeJuego.UseVisualStyleBackColor = true;
+            this.btnSesionesdeJuego.Click += new System.EventHandler(this.btnSesionesdeJuego_Click);
+            // 
             // Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -433,7 +446,9 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1007, 619);
             this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "Usuarios";
             this.Text = "Usuarios";
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -486,5 +501,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Direccion;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
+        private System.Windows.Forms.Button btnSesionesdeJuego;
     }
 }

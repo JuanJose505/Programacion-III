@@ -11,7 +11,7 @@ namespace RespawnHub.Models
     {
         private static readonly string ruta = Path.Combine("db", "productos.csv");
 
-        public int Identificador { get; set; }
+        public int ID { get; set; }
 
         public string Nombre { get; set; }
 
@@ -19,19 +19,25 @@ namespace RespawnHub.Models
 
         public int Logros { get; set; }
 
-        public float Horas { get; set; }
+        public string Desarrollador { get; set; }
+
+        public string RutaImagenSeleccionada { get; set; }
 
         public Juego() { }
 
-        public void Crear(int id, string nombre, string descripcion, int logros, float horas)
+        public void Crear(int id, string nombre, string descripcion, int logros, string desarrollador)
         {
-            id = Identificador;
+            id = ID;
             nombre = Nombre;
             descripcion = Descripcion;
             logros = Logros;
-            horas = Horas;
+            desarrollador = Desarrollador;
+            
 
-            string linea = $"{id},{nombre},{descripcion},{logros},{horas}";
+
+            
+
+            string linea = $"{id},{nombre},{descripcion},{logros},{desarrollador}";
 
             string directorio = Path.GetDirectoryName(ruta);
             if (!Directory.Exists(directorio))

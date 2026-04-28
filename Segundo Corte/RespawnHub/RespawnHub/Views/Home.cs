@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using RespawnHub.Forms;
+using RespawnHub.Views;
 
 namespace RespawnHub
 {
@@ -30,6 +31,14 @@ namespace RespawnHub
             Usuarios usuario = new Usuarios();
             usuario.FormClosed += (s, d) => Application.Exit();
             usuario.Show();
+            this.Hide();
+        }
+
+        private void btnJuegos_Click(object sender, EventArgs e)
+        {
+            Juegos juegos = new Juegos();
+            juegos.FormClosed += (s, d) => Application.Exit();
+            juegos.Show();
             this.Hide();
         }
     }

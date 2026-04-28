@@ -11,6 +11,7 @@ namespace RespawnHub.Controllers
 {
     public class UsuarioController
     {
+
         public string Crear(string id, string nombre, string telefono, string correo, string direccion)
         {
             Usuario usuario = new Usuario();

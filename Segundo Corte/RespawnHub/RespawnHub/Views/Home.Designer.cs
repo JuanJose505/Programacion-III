@@ -31,15 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnUsuarios = new System.Windows.Forms.Button();
-            this.btnJuegos = new System.Windows.Forms.Button();
-            this.btnSesionesdeJuego = new System.Windows.Forms.Button();
-            this.btnBiblioteca = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnJuegos = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnBiblioteca = new System.Windows.Forms.Button();
+            this.btnSesionesdeJuego = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -66,17 +66,6 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Bienvenido de vuelta";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::RespawnHub.Properties.Resources.image_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(132, 141);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -88,48 +77,6 @@
             this.label3.Size = new System.Drawing.Size(163, 19);
             this.label3.TabIndex = 3;
             this.label3.Text = "¿Que jugaremos hoy?";
-            // 
-            // btnUsuarios
-            // 
-            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
-            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
-            this.btnUsuarios.Location = new System.Drawing.Point(0, 0);
-            this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(191, 172);
-            this.btnUsuarios.TabIndex = 4;
-            this.btnUsuarios.UseVisualStyleBackColor = false;
-            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
-            // 
-            // btnJuegos
-            // 
-            this.btnJuegos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnJuegos.Image = ((System.Drawing.Image)(resources.GetObject("btnJuegos.Image")));
-            this.btnJuegos.Location = new System.Drawing.Point(218, 0);
-            this.btnJuegos.Name = "btnJuegos";
-            this.btnJuegos.Size = new System.Drawing.Size(191, 172);
-            this.btnJuegos.TabIndex = 5;
-            this.btnJuegos.UseVisualStyleBackColor = true;
-            // 
-            // btnSesionesdeJuego
-            // 
-            this.btnSesionesdeJuego.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSesionesdeJuego.Image = ((System.Drawing.Image)(resources.GetObject("btnSesionesdeJuego.Image")));
-            this.btnSesionesdeJuego.Location = new System.Drawing.Point(433, 0);
-            this.btnSesionesdeJuego.Name = "btnSesionesdeJuego";
-            this.btnSesionesdeJuego.Size = new System.Drawing.Size(191, 172);
-            this.btnSesionesdeJuego.TabIndex = 6;
-            this.btnSesionesdeJuego.UseVisualStyleBackColor = true;
-            // 
-            // btnBiblioteca
-            // 
-            this.btnBiblioteca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBiblioteca.Image = ((System.Drawing.Image)(resources.GetObject("btnBiblioteca.Image")));
-            this.btnBiblioteca.Location = new System.Drawing.Point(647, 0);
-            this.btnBiblioteca.Name = "btnBiblioteca";
-            this.btnBiblioteca.Size = new System.Drawing.Size(191, 172);
-            this.btnBiblioteca.TabIndex = 7;
-            this.btnBiblioteca.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -144,6 +91,60 @@
             this.panel1.Size = new System.Drawing.Size(838, 172);
             this.panel1.TabIndex = 9;
             // 
+            // btnJuegos
+            // 
+            this.btnJuegos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnJuegos.Image = ((System.Drawing.Image)(resources.GetObject("btnJuegos.Image")));
+            this.btnJuegos.Location = new System.Drawing.Point(218, 0);
+            this.btnJuegos.Name = "btnJuegos";
+            this.btnJuegos.Size = new System.Drawing.Size(191, 172);
+            this.btnJuegos.TabIndex = 5;
+            this.btnJuegos.UseVisualStyleBackColor = true;
+            this.btnJuegos.Click += new System.EventHandler(this.btnJuegos_Click);
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
+            this.btnUsuarios.Location = new System.Drawing.Point(0, 0);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(191, 172);
+            this.btnUsuarios.TabIndex = 4;
+            this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
+            // btnBiblioteca
+            // 
+            this.btnBiblioteca.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnBiblioteca.Image = ((System.Drawing.Image)(resources.GetObject("btnBiblioteca.Image")));
+            this.btnBiblioteca.Location = new System.Drawing.Point(647, 0);
+            this.btnBiblioteca.Name = "btnBiblioteca";
+            this.btnBiblioteca.Size = new System.Drawing.Size(191, 172);
+            this.btnBiblioteca.TabIndex = 7;
+            this.btnBiblioteca.UseVisualStyleBackColor = true;
+            // 
+            // btnSesionesdeJuego
+            // 
+            this.btnSesionesdeJuego.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSesionesdeJuego.Image = ((System.Drawing.Image)(resources.GetObject("btnSesionesdeJuego.Image")));
+            this.btnSesionesdeJuego.Location = new System.Drawing.Point(433, 0);
+            this.btnSesionesdeJuego.Name = "btnSesionesdeJuego";
+            this.btnSesionesdeJuego.Size = new System.Drawing.Size(191, 172);
+            this.btnSesionesdeJuego.TabIndex = 6;
+            this.btnSesionesdeJuego.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::RespawnHub.Properties.Resources.image_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(132, 141);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -155,11 +156,13 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Home";
             this.Text = "Respawn Hub";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
