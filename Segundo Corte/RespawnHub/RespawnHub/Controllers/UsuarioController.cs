@@ -11,19 +11,54 @@ namespace RespawnHub.Controllers
 {
     public class UsuarioController
     {
-        public string Crear(Usuario usuario)
+        public string Crear(string id, string nombre, string telefono, string correo, string direccion)
         {
-            Usuario model = new Usuario();
+            Usuario usuario = new Usuario();
 
-            if (model.Buscar(usuario.ID) != null)
+            if (usuario.Buscar(id) != null)
             {
                 return "El usuario con ese ID ya existe";
             }
 
-            usuario.Crear();
+            usuario.Crear(id, nombre, telefono, correo, direccion);
             return "ok";
+        }
 
+        public List<Usuario> Listar()
+        {
+            Usuario usuario = new Usuario();
+            return usuario.Listar();
+        }
+
+        public string Eliminar(string id)
+        {
+            Usuario usuario = new Usuario();
+
+            if (usuario.Buscar(id) == null)
+            {
+                return "El usuario no existe";
+            }
+
+            usuario.Eliminar(id);
+            return "ok";
+        }
+
+        public string Actualizar(string id, string nombre, string telefono, string correo, string direccion)
+        {
+            Usuario usuario = new Usuario();
+
+            if (usuario.Buscar(id) == null)
+            {
+                return "El usuario no existe";
+            }
+
+            usuario.Actualizar(id, nombre, telefono, correo, direccion);
+            return "ok";
+        }
+        public void GuardarLista(List<Usuario> lista)
+        {
+            Usuario usuario = new Usuario();
+            usuario.GuardarLista(lista);
         }
     }
-        
 }

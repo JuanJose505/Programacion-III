@@ -3,111 +3,125 @@ using System.Collections.Generic;
 using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace RespawnHub.Models
 {
     public class Usuario
     {
+        private static readonly string RUTA = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "usuarios.csv");
+
         public string ID { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }
         public string Direccion { get; set; }
 
+        public Usuario() { }
 
-        private string ruta = "usuarios.csv";
+
+        public void GuardarLista(List<Usuario> lista)
+        {
+            List<string> lineas = new List<string>();
+
+            foreach (var u in lista)
+            {
+                lineas.Add($"{u.ID};{u.Nombre};{u.Telefono};{u.Correo};{u.Direccion}");
+            }
+
+            File.WriteAllLines("usuarios.csv", lineas);
+        }
+
+
+        public void Crear(string id, string nombre, string telefono, string correo, string direccion)
+        {
+            string linea = $"{id};{nombre};{telefono};{correo};{direccion}";
+            File.AppendAllText(RUTA, linea + Environment.NewLine);
+        }
+
+        public List<Usuario> Listar()
+        {
+            List<Usuario> lista = new List<Usuario>();
+
+            if (File.Exists(RUTA))
+            {
+                var lineas = File.ReadAllLines(RUTA);
+
+                foreach (var linea in lineas)
+                {
+                    var datos = linea.Split(';');
+
+                    if (datos.Length == 5)
+                    {
+                        lista.Add(new Usuario
+                        {
+                            ID = datos[0],
+                            Nombre = datos[1],
+                            Telefono = datos[2],
+                            Correo = datos[3],
+                            Direccion = datos[4]
+                        });
+                    }
+                }
+            }
+
+            return lista;
+        }
 
         public Usuario Buscar(string id)
         {
-            if (!File.Exists(ruta))
+            if (File.Exists(RUTA))
             {
-                return null;
-            }
+                var lineas = File.ReadAllLines(RUTA);
 
-            string[] lineas = File.ReadAllLines(ruta);
-
-            foreach (string linea in lineas)
-            {
-                var campo = linea.Split(';');
-
-                if (campo[0] == id)
+                foreach (var linea in lineas)
                 {
-                    return new Usuario
+                    var datos = linea.Split(';');
+
+                    if (datos.Length == 5 && datos[0] == id)
                     {
-                        ID = campo[0],
-                        Nombre = campo[1],
-                        Telefono = campo[2],
-                        Correo = campo[3],
-                        Direccion = campo[4]
-                    };
-
-
+                        return new Usuario
+                        {
+                            ID = datos[0],
+                            Nombre = datos[1],
+                            Telefono = datos[2],
+                            Correo = datos[3],
+                            Direccion = datos[4]
+                        };
+                    }
                 }
             }
 
             return null;
         }
 
-
-        public List<Usuario> Listar()
-        {
-            List<Usuario> lista = new List<Usuario>();
-
-            if (!File.Exists(ruta)) return lista;
-
-            var lineas = File.ReadLines(ruta);
-
-            foreach (string linea in lineas)
-            {
-                var campos = linea.Split(';');
-
-                lista.Add(new Usuario
-                {
-                    ID = campos[0],
-                    Nombre = campos[1],
-                    Telefono = campos[2],
-                    Correo = campos[3],
-                    Direccion = campos[4]
-                });
-            }
-
-            return lista;
-        }
-
-
-        public void Crear()
-        {
-            string texto = $"{ID};{Nombre};{Telefono};{Correo};{Direccion}";
-            File.AppendAllText(ruta,texto + Environment.NewLine);
-        }
-
-
         public void Eliminar(string id)
         {
-            var lista = Listar();
-
-            List<Usuario> nuevalista = new List<Usuario>();
-            
-            foreach (Usuario u in lista)
+            if (File.Exists(RUTA))
             {
-                if (u.ID != id)
+                var lineas = File.ReadAllLines(RUTA);
+                var nuevas = lineas.Where(l => !l.StartsWith(id + ";")).ToArray();
+                File.WriteAllLines(RUTA, nuevas);
+            }
+        }
+
+        public void Actualizar(string id, string nombre, string telefono, string correo, string direccion)
+        {
+         if (!File.Exists(RUTA)) { return; }
+
+            var lineas = File.ReadAllLines(RUTA);
+
+            for(int i = 0; i < lineas.Length; i++)
+            {
+                var datos = lineas[i].Split(';');
+
+                if (datos[0] == id)
                 {
-                    nuevalista.Add(u);
+                    lineas[i] = $"{id};{nombre};{telefono};{correo};{direccion}";
+                    break;
                 }
-
-                List<string> lineas = new List<string>();
-
-                foreach (string linea in lineas)
-                {
-                    lineas.Add($"{u.ID};{u.Nombre};{u.Telefono};{u.Correo};{u.Direccion}");
-                }
-
-                File.WriteAllLines(ruta, lineas);
             }
 
+            File.AppendAllLines(RUTA, lineas);
 
         }
     }

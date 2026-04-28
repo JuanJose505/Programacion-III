@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,51 +38,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "RespawnHub\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "RespawnHub\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowBUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T15:04:54.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "RespawnHub\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Models\\Usuario.cs",
-              "RelativeToolTip": "RespawnHub\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T22:53:43.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Usuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
               "RelativeDocumentMoniker": "RespawnHub\\Views\\Usuario.cs",
               "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "RespawnHub\\Views\\Usuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T17:03:59.413Z",
+              "WhenOpened": "2026-04-27T13:43:55.051Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "RespawnHub\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:04:54.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Models\\Usuario.cs",
+              "RelativeToolTip": "RespawnHub\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T22:53:43.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
               "RelativeDocumentMoniker": "RespawnHub\\Views\\Usuario.cs",
               "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
               "RelativeToolTip": "RespawnHub\\Views\\Usuario.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA5wKYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T18:02:04.712Z",
               "EditorCaption": ""

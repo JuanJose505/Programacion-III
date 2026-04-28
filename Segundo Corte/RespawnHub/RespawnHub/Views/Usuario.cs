@@ -1,14 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Xml;
 using RespawnHub.Controllers;
 using RespawnHub.Models;
 
@@ -16,161 +9,134 @@ namespace RespawnHub.Forms
 {
     public partial class Usuarios : Form
     {
+        private UsuarioController _controller = new UsuarioController();
+
         public Usuarios()
         {
             InitializeComponent();
+
+            dgvUsuarios.AutoGenerateColumns = false;
+            dgvUsuarios.Columns[0].DataPropertyName = "ID";
+            dgvUsuarios.Columns[1].DataPropertyName = "Nombre";
+            dgvUsuarios.Columns[2].DataPropertyName = "Telefono";
+            dgvUsuarios.Columns[3].DataPropertyName = "Correo";
+            dgvUsuarios.Columns[4].DataPropertyName = "Direccion";
+
+            this.Load += Usuarios_Load;
+        }
+
+        private void Usuarios_Load(object sender, EventArgs e)
+        {
             CargarUsuarios();
-        }
-
-        private void btnRegistrar_Click(object sender, EventArgs e)
-        {
-            bool validateID = false;
-            bool validateNombre = false;
-            bool validateTelefono = false;
-            bool validateCorreo = false;
-            bool validateDireccion = false;
-            bool validate = false;
-
-
-            if (txtID.Text != "")
-            {
-                validateID = true;
-            }
-            if (txtNombre.Text != "")
-            {
-                validateNombre = true;
-            }
-            if (mtxtTelefono.Text != "")
-            {
-                validateTelefono = true;
-            }
-            if (txtCorreo.Text != "")
-            {
-                validateCorreo = true;
-            }
-            if (txtDireccion.Text != "")
-            {
-                validateDireccion = true;
-            }
-
-            if (validateID && validateNombre && validateTelefono && validateCorreo && validateDireccion)
-            {
-                validate = true;
-
-            }
-
-            if (validate)
-            {
-                Usuario usuario = new Usuario()
-                {
-                    ID = txtID.Text,
-                    Nombre = txtNombre.Text,
-                    Telefono = mtxtTelefono.Text,
-                    Correo = txtCorreo.Text,
-                    Direccion = txtDireccion.Text
-                
-                };
-
-                UsuarioController controller = new UsuarioController();
-                bool resultado = controller.Guardar(usuario);
-                if (resultado)
-                {
-                    MessageBox.Show("Usuario registrado con exito");
-                    CargarUsuarios();
-                }
-                else
-                {
-                    MessageBox.Show("Error al ingresar, datos ya existentes");
-                }
-            }
-        }
-
-        private void btnLimpiar_Click(object sender, EventArgs e)
-        {
-            txtID.Clear();
-            txtNombre.Clear();
-            txtDireccion.Clear();
-            mtxtTelefono.Clear();
-            txtCorreo.Clear();
         }
 
         private void CargarUsuarios()
         {
-            dgvUsuarios.Rows.Clear();
-
-            if (!File.Exists("usuarios.csv"))
-            {
-                return;
-            }
-
-            string[] lineas = File.ReadAllLines("usuarios.csv");
-            foreach (string linea in lineas)
-            {
-                string[] parte = linea.Split(';');
-
-                dgvUsuarios.Rows.Add(
-
-                    parte[0],
-                    parte[1],
-                    parte[2],
-                    parte[3],
-                    parte[4]
-
-                    );
-
-            }
+            dgvUsuarios.DataSource = null;
+            dgvUsuarios.DataSource = _controller.Listar();
         }
 
-        private void btnActualizar_Click(object sender, EventArgs e)
+        private void LimpiarCampos()
         {
-           
+            txtID.Clear();
+            txtNombre.Clear();
+            mtxtTelefono.Clear();
+            txtCorreo.Clear();
+            txtDireccion.Clear();
+        }
 
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            string resultado = _controller.Crear(
+                txtID.Text,
+                txtNombre.Text,
+                mtxtTelefono.Text,
+                txtCorreo.Text,
+                txtDireccion.Text
+            );
 
-
-
+            if (resultado == "ok")
+            {
+                MessageBox.Show("Usuario registrado con éxito");
+                CargarUsuarios();
+                LimpiarCampos();
+            }
+            else
+            {
+                MessageBox.Show(resultado);
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             if (dgvUsuarios.CurrentRow == null)
             {
-                MessageBox.Show("Seleccione una fila para realizar la accion");
+                MessageBox.Show("Seleccione una fila");
                 return;
             }
 
             string id = dgvUsuarios.CurrentRow.Cells[0].Value.ToString();
 
-            UsuarioController controller = new UsuarioController();
+            string resultado = _controller.Eliminar(id);
 
-            bool resultado = controller.Borrar(id);
-
-            if (resultado)
+            if (resultado == "ok")
             {
-                MessageBox.Show("Valor eliminado con exito");
+                MessageBox.Show("Usuario eliminado");
                 CargarUsuarios();
-
             }
             else
             {
-                MessageBox.Show("Error al intenar realizar la accion");
+                MessageBox.Show(resultado);
             }
-
-
         }
 
-        public void BuscarUsuarios(string texto)
+        private void btnActualizar_Click(object sender, EventArgs e)
         {
-            dgvUsuarios.Rows.Clear();
+            dgvUsuarios.EndEdit(); // MUY IMPORTANTE (termina edición)
 
-            UsuarioController controller = new UsuarioController();
+            List<RespawnHub.Models.Usuario> lista = new List<RespawnHub.Models.Usuario>();
 
-            
+            foreach (DataGridViewRow fila in dgvUsuarios.Rows)
+            {
+                if (fila.IsNewRow) continue;
+
+                lista.Add(new RespawnHub.Models.Usuario
+                {
+                    ID = fila.Cells[0].Value?.ToString(),
+                    Nombre = fila.Cells[1].Value?.ToString(),
+                    Telefono = fila.Cells[2].Value?.ToString(),
+                    Correo = fila.Cells[3].Value?.ToString(),
+                    Direccion = fila.Cells[4].Value?.ToString()
+                });
+            }
+
+            _controller.GuardarLista(lista);
+
+            MessageBox.Show("Cambios guardados correctamente");
+            CargarUsuarios();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            BuscarUsuarios(txtBuscar.Text);
-        }
+            string texto = txtBuscar.Text.ToLower();
 
+            var lista = _controller.Listar();
+
+            var filtrados = lista.FindAll(u =>
+                u.ID.ToLower().Contains(texto) ||
+                u.Nombre.ToLower().Contains(texto) ||
+                u.Telefono.ToLower().Contains(texto) ||
+                u.Correo.ToLower().Contains(texto) ||
+                u.Direccion.ToLower().Contains(texto)
+            );
+
+            dgvUsuarios.DataSource = null;
+            dgvUsuarios.DataSource = filtrados;
+        }
     }
 }
