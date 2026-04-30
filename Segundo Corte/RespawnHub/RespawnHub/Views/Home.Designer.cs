@@ -105,6 +105,7 @@
             // btnUsuarios
             // 
             this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
+            this.btnUsuarios.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
             this.btnUsuarios.Location = new System.Drawing.Point(0, 0);

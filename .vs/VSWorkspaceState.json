@@ -4,9 +4,10 @@
     "\\Segundo Corte",
     "\\Segundo Corte\\RespawnHub",
     "\\Segundo Corte\\RespawnHub\\RespawnHub",
-    "\\Segundo Corte\\RespawnHub\\RespawnHub\\Views",
-    "\\Segundo Corte\\reto3"
+    "\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers",
+    "\\Segundo Corte\\RespawnHub\\RespawnHub\\Models",
+    "\\Segundo Corte\\RespawnHub\\RespawnHub\\Views"
   ],
-  "SelectedNode": "\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
+  "SelectedNode": "\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Juegos.cs",
   "PreviewInSolutionExplorer": false
 }

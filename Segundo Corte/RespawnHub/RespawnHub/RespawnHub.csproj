@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\JuegoController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Models\Juego.cs" />
     <Compile Include="Models\Usuario.cs" />

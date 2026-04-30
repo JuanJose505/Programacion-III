@@ -35,19 +35,19 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.btnSeleccionarImagen = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.btnRegistrarJuego = new System.Windows.Forms.Button();
             this.BtnLimpiarJuego = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txtDesarrollador = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnGameDir = new System.Windows.Forms.Button();
+            this.btnSesionesdeJuego = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -73,6 +73,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.flowLayoutPanel1);
+            this.splitContainer1.Panel2.Controls.Add(this.btnSesionesdeJuego);
             this.splitContainer1.Size = new System.Drawing.Size(1038, 615);
             this.splitContainer1.SplitterDistance = 346;
             this.splitContainer1.TabIndex = 0;
@@ -102,6 +103,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.btnGameDir);
             this.groupBox5.Controls.Add(this.btnSeleccionarImagen);
             this.groupBox5.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.White;
@@ -118,9 +120,9 @@
             // btnSeleccionarImagen
             // 
             this.btnSeleccionarImagen.ForeColor = System.Drawing.Color.Black;
-            this.btnSeleccionarImagen.Location = new System.Drawing.Point(33, 50);
+            this.btnSeleccionarImagen.Location = new System.Drawing.Point(24, 50);
             this.btnSeleccionarImagen.Name = "btnSeleccionarImagen";
-            this.btnSeleccionarImagen.Size = new System.Drawing.Size(207, 29);
+            this.btnSeleccionarImagen.Size = new System.Drawing.Size(183, 47);
             this.btnSeleccionarImagen.TabIndex = 1;
             this.btnSeleccionarImagen.Text = "Selecciona una imagen";
             this.btnSeleccionarImagen.UseVisualStyleBackColor = true;
@@ -128,17 +130,15 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.textBox6);
+            this.groupBox4.Controls.Add(this.txtDescripcion);
             this.groupBox4.Controls.Add(this.btnRegistrarJuego);
             this.groupBox4.Controls.Add(this.BtnLimpiarJuego);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.txtDesarrollador);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Controls.Add(this.textBox3);
+            this.groupBox4.Controls.Add(this.txtNombre);
             this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Controls.Add(this.textBox4);
+            this.groupBox4.Controls.Add(this.txtID);
             this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.White;
@@ -151,29 +151,30 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Registrar Usuario";
             // 
-            // textBox6
+            // txtDescripcion
             // 
-            this.textBox6.Location = new System.Drawing.Point(143, 117);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(136, 26);
-            this.textBox6.TabIndex = 13;
+            this.txtDescripcion.Location = new System.Drawing.Point(143, 117);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(136, 26);
+            this.txtDescripcion.TabIndex = 13;
             // 
             // btnRegistrarJuego
             // 
             this.btnRegistrarJuego.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrarJuego.Location = new System.Drawing.Point(23, 247);
+            this.btnRegistrarJuego.Location = new System.Drawing.Point(24, 222);
             this.btnRegistrarJuego.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegistrarJuego.Name = "btnRegistrarJuego";
             this.btnRegistrarJuego.Size = new System.Drawing.Size(255, 28);
             this.btnRegistrarJuego.TabIndex = 12;
             this.btnRegistrarJuego.Text = "Registrar";
             this.btnRegistrarJuego.UseVisualStyleBackColor = true;
+            this.btnRegistrarJuego.Click += new System.EventHandler(this.btnRegistrarJuego_Click);
             // 
             // BtnLimpiarJuego
             // 
             this.BtnLimpiarJuego.ForeColor = System.Drawing.Color.Black;
-            this.BtnLimpiarJuego.Location = new System.Drawing.Point(23, 295);
+            this.BtnLimpiarJuego.Location = new System.Drawing.Point(23, 270);
             this.BtnLimpiarJuego.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BtnLimpiarJuego.Name = "BtnLimpiarJuego";
             this.BtnLimpiarJuego.Size = new System.Drawing.Size(255, 28);
@@ -181,31 +182,13 @@
             this.BtnLimpiarJuego.Text = "Limpiar";
             this.BtnLimpiarJuego.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtDesarrollador
             // 
-            this.textBox1.Location = new System.Drawing.Point(160, 202);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 26);
-            this.textBox1.TabIndex = 9;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(120, 161);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 26);
-            this.textBox2.TabIndex = 8;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(5, 201);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 24);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Desarrollador:";
+            this.txtDesarrollador.Location = new System.Drawing.Point(176, 160);
+            this.txtDesarrollador.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDesarrollador.Name = "txtDesarrollador";
+            this.txtDesarrollador.Size = new System.Drawing.Size(103, 26);
+            this.txtDesarrollador.TabIndex = 8;
             // 
             // label8
             // 
@@ -213,9 +196,9 @@
             this.label8.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(29, 160);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(84, 24);
+            this.label8.Size = new System.Drawing.Size(149, 24);
             this.label8.TabIndex = 5;
-            this.label8.Text = "Logros:";
+            this.label8.Text = "Desarrollador:";
             // 
             // label9
             // 
@@ -227,13 +210,13 @@
             this.label9.TabIndex = 4;
             this.label9.Text = "Descripcion";
             // 
-            // textBox3
+            // txtNombre
             // 
-            this.textBox3.Location = new System.Drawing.Point(120, 74);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 26);
-            this.textBox3.TabIndex = 3;
+            this.txtNombre.Location = new System.Drawing.Point(120, 74);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(159, 26);
+            this.txtNombre.TabIndex = 3;
             // 
             // label10
             // 
@@ -245,13 +228,13 @@
             this.label10.TabIndex = 2;
             this.label10.Text = "Nombre:";
             // 
-            // textBox4
+            // txtID
             // 
-            this.textBox4.Location = new System.Drawing.Point(120, 34);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(159, 26);
-            this.textBox4.TabIndex = 1;
+            this.txtID.Location = new System.Drawing.Point(120, 34);
+            this.txtID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(159, 26);
+            this.txtID.TabIndex = 1;
             // 
             // label11
             // 
@@ -266,10 +249,32 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 25);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(16, 148);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(660, 452);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(660, 329);
             this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // btnGameDir
+            // 
+            this.btnGameDir.ForeColor = System.Drawing.Color.Black;
+            this.btnGameDir.Location = new System.Drawing.Point(213, 50);
+            this.btnGameDir.Name = "btnGameDir";
+            this.btnGameDir.Size = new System.Drawing.Size(65, 47);
+            this.btnGameDir.TabIndex = 2;
+            this.btnGameDir.Text = "Game Dir";
+            this.btnGameDir.UseVisualStyleBackColor = true;
+            this.btnGameDir.Click += new System.EventHandler(this.btnGameDir_Click);
+            // 
+            // btnSesionesdeJuego
+            // 
+            this.btnSesionesdeJuego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSesionesdeJuego.Image = ((System.Drawing.Image)(resources.GetObject("btnSesionesdeJuego.Image")));
+            this.btnSesionesdeJuego.Location = new System.Drawing.Point(-23, 469);
+            this.btnSesionesdeJuego.Name = "btnSesionesdeJuego";
+            this.btnSesionesdeJuego.Size = new System.Drawing.Size(191, 172);
+            this.btnSesionesdeJuego.TabIndex = 8;
+            this.btnSesionesdeJuego.UseVisualStyleBackColor = true;
+            this.btnSesionesdeJuego.Click += new System.EventHandler(this.btnSesionesdeJuego_Click);
             // 
             // Juegos
             // 
@@ -301,20 +306,20 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button btnRegistrarJuego;
         private System.Windows.Forms.Button BtnLimpiarJuego;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnSeleccionarImagen;
+        private System.Windows.Forms.TextBox txtDesarrollador;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnGameDir;
+        private System.Windows.Forms.Button btnSesionesdeJuego;
     }
 }

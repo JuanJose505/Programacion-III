@@ -34,6 +34,12 @@ namespace RespawnHub.Models
 
         public void Crear(string id, string nombre, string telefono, string correo, string direccion)
         {
+            ID = id;
+            Nombre = nombre;
+            Telefono = telefono;
+            Correo = correo;
+            Direccion = direccion;
+
             string linea = $"{id};{nombre};{telefono};{correo};{direccion}";
             File.AppendAllText(RUTA, linea + Environment.NewLine);
         }
