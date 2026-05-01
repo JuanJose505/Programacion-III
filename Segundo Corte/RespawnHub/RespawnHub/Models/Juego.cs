@@ -48,7 +48,7 @@ namespace RespawnHub.Models
                 foreach(var linea in lineas)
                 {
                     var datos = linea.Split(';');
-                    if (datos.Length == 3)
+                    if (datos.Length == 6)
                     {
                         int id = int.Parse(datos[0]);
                         string nombre = datos[1];
@@ -60,6 +60,7 @@ namespace RespawnHub.Models
                         juego.ID = id;
                         juego.Nombre = nombre;
                         juego.Descripcion = descripcion;
+                        juego.Desarrollador = desarrollador;
                         juego.RutaImagenSeleccionada = rutaimagenseleccionada;
                         juego.RutaEjecutableSeleccionada = rutaejecutableseleccionada;
 

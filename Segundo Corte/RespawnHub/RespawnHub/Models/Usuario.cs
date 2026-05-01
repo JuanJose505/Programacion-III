@@ -127,7 +127,7 @@ namespace RespawnHub.Models
                 }
             }
 
-            File.AppendAllLines(RUTA, lineas);
+            File.WriteAllLines(RUTA, lineas);
 
         }
     }
