@@ -52,9 +52,17 @@ namespace RespawnHub.Controllers
 
         }
 
+
+        public void Eliminar(int id)
+        {
+            Juego juego = new Juego();
+            juego.Eliminar(id);
+        }
+
         public List<Juego> ObtenerJuegos()
         {
-            return listajuegos;
+            Juego juego = new Juego();
+            return juego.Listar();
         }
         
     }

@@ -71,7 +71,26 @@ namespace RespawnHub.Models
             }
 
             return juegos;
-        } 
+        }
+        
+        public void Eliminar(int id)
+        {
+            var lineas = File.ReadAllLines(ruta);
+            var nuevaslineas = new List<string>();
+
+
+            foreach (var linea in lineas)
+            {
+                var datos = linea.Split(';');
+                if (datos.Length == 6 && int.Parse(datos[0]) != id)
+                {
+                    nuevaslineas.Add(linea);
+                }
+
+            }
+
+            File.WriteAllLines(ruta, nuevaslineas);
+        }
 
 
     }

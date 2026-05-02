@@ -41,5 +41,13 @@ namespace RespawnHub
             juegos.Show();
             this.Hide();
         }
+
+        private void btnSesionesdeJuego_Click(object sender, EventArgs e)
+        {
+            Sesiones sesiones = new Sesiones();
+            sesiones.FormClosed += (s, d) => Application.Exit();
+            sesiones.Show();
+            this.Hide();
+        }
     }
 }
