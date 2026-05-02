@@ -11,3 +11,4 @@ C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\Respaw
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Home.resources
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Views.Juegos.resources
 C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Views.Sesiones.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RespawnHub\RespawnHub\obj\Debug\RespawnHub.Views.Estadisticas.resources

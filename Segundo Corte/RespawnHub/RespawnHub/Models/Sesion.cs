@@ -41,7 +41,7 @@ namespace RespawnHub.Models
             {
                 Directory.CreateDirectory(directorio);
             }
-            File.AppendAllText(directorio, linea + Environment.NewLine);
+            File.AppendAllText(RUTA, linea + Environment.NewLine);
         }
 
         public List<Sesion> Listar()
@@ -85,7 +85,7 @@ namespace RespawnHub.Models
             foreach (var linea in lineas)
             {
                 var campos = linea.Split(';');
-                if (campos.Length == 9 && campos[0] == id)
+                if (campos.Length == 9 && campos[0] != id)
                 {
                     nuevas.Add(linea);
                 }

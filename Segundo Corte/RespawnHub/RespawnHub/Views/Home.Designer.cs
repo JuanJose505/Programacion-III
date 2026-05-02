@@ -131,6 +131,7 @@
             this.btnBiblioteca.Size = new System.Drawing.Size(143, 149);
             this.btnBiblioteca.TabIndex = 7;
             this.btnBiblioteca.UseVisualStyleBackColor = true;
+            this.btnBiblioteca.Click += new System.EventHandler(this.btnBiblioteca_Click);
             // 
             // btnSesionesdeJuego
             // 

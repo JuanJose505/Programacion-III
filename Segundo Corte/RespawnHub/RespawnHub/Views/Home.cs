@@ -49,5 +49,13 @@ namespace RespawnHub
             sesiones.Show();
             this.Hide();
         }
+
+        private void btnBiblioteca_Click(object sender, EventArgs e)
+        {
+            Estadisticas estadisticas = new Estadisticas();
+            estadisticas.FormClosed += (s, d) => Application.Exit();
+            estadisticas.Show();
+            this.Hide();
+        }
     }
 }

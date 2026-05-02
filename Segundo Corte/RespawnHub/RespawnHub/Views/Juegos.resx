@@ -121,7 +121,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFQjSURBVHhe7Z0J
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFQjSURBVHhe7Z0J
         lBVFmu+l95leZnqZnul5M9OzvemZ6enVXqZn3uupkRtZVruO3fdZGVlVQmXkZVFkEZBFpVi6FREVV2xb
         QVAQBBRwRdQWXFtBxAWUHQHZ933Ld76kUPgiC27czHtv5r3/3zm/czgKcSMjI/LLJeKLM84AAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -487,7 +487,7 @@
   <data name="btnSesionesdeJuego.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAL8AAACsCAIAAAClyupkAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAC0JJREFUeF7tnXlTFVcah/MZFC53v337QtwKF0ypBRXFBSwZg1sFBcsRdTTuiQEj
+        vAAADrwBlbxySQAAC0JJREFUeF7tnXlTFVcah/MZFC53v337QtwKF0ypBRXFBSwZg1sFBcsRdTTuiQEj
         XJxEwW0Syw2XzB/JTFlmpmLGJTMpdUaNpcEw4sa+KwIHWjNfYso+laY9rbF5L0t3+3vqLau4NKdP1/t4
         Tp/ldr81AgAqb4kfAGAa2APowB5AB/YAOrAH0IE9gA7sAXRgD6ADewAd2APowB5AB/YAOrAH0IE9gA7s
         AXRgD6ADewAd2APowB5AB/YAOrAH0IE9gA7sAXRgD6ADewAd2APowB5AB/YAOrAH0IE9gA7sAXRgD6AD

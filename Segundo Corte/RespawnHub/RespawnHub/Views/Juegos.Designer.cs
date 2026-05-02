@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Juegos));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.BtnLimpiarJuego = new System.Windows.Forms.Button();
+            this.btnRegistrarJuego = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -37,8 +39,6 @@
             this.btnSeleccionarImagen = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.btnRegistrarJuego = new System.Windows.Forms.Button();
-            this.BtnLimpiarJuego = new System.Windows.Forms.Button();
             this.txtDesarrollador = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -46,9 +46,9 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnSesionesdeJuego = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -68,6 +68,8 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.BtnLimpiarJuego);
+            this.splitContainer1.Panel1.Controls.Add(this.btnRegistrarJuego);
             this.splitContainer1.Panel1.Controls.Add(this.label1);
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             this.splitContainer1.Panel1.Controls.Add(this.groupBox5);
@@ -82,6 +84,30 @@
             this.splitContainer1.SplitterDistance = 259;
             this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // BtnLimpiarJuego
+            // 
+            this.BtnLimpiarJuego.ForeColor = System.Drawing.Color.Black;
+            this.BtnLimpiarJuego.Location = new System.Drawing.Point(27, 404);
+            this.BtnLimpiarJuego.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnLimpiarJuego.Name = "BtnLimpiarJuego";
+            this.BtnLimpiarJuego.Size = new System.Drawing.Size(191, 23);
+            this.BtnLimpiarJuego.TabIndex = 11;
+            this.BtnLimpiarJuego.Text = "Limpiar";
+            this.BtnLimpiarJuego.UseVisualStyleBackColor = true;
+            this.BtnLimpiarJuego.Click += new System.EventHandler(this.BtnLimpiarJuego_Click);
+            // 
+            // btnRegistrarJuego
+            // 
+            this.btnRegistrarJuego.ForeColor = System.Drawing.Color.Black;
+            this.btnRegistrarJuego.Location = new System.Drawing.Point(27, 440);
+            this.btnRegistrarJuego.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegistrarJuego.Name = "btnRegistrarJuego";
+            this.btnRegistrarJuego.Size = new System.Drawing.Size(191, 23);
+            this.btnRegistrarJuego.TabIndex = 12;
+            this.btnRegistrarJuego.Text = "Registrar";
+            this.btnRegistrarJuego.UseVisualStyleBackColor = true;
+            this.btnRegistrarJuego.Click += new System.EventHandler(this.btnRegistrarJuego_Click);
             // 
             // label1
             // 
@@ -113,7 +139,7 @@
             this.groupBox5.Controls.Add(this.btnSeleccionarImagen);
             this.groupBox5.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.White;
-            this.groupBox5.Location = new System.Drawing.Point(9, 391);
+            this.groupBox5.Location = new System.Drawing.Point(9, 287);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
@@ -150,8 +176,6 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.txtDescripcion);
-            this.groupBox4.Controls.Add(this.btnRegistrarJuego);
-            this.groupBox4.Controls.Add(this.BtnLimpiarJuego);
             this.groupBox4.Controls.Add(this.txtDesarrollador);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.label9);
@@ -165,10 +189,10 @@
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(232, 267);
+            this.groupBox4.Size = new System.Drawing.Size(232, 163);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Registrar Usuario";
+            this.groupBox4.Text = "Registrar Juego";
             // 
             // txtDescripcion
             // 
@@ -177,30 +201,6 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(93, 22);
             this.txtDescripcion.TabIndex = 13;
-            // 
-            // btnRegistrarJuego
-            // 
-            this.btnRegistrarJuego.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrarJuego.Location = new System.Drawing.Point(18, 180);
-            this.btnRegistrarJuego.Margin = new System.Windows.Forms.Padding(2);
-            this.btnRegistrarJuego.Name = "btnRegistrarJuego";
-            this.btnRegistrarJuego.Size = new System.Drawing.Size(191, 23);
-            this.btnRegistrarJuego.TabIndex = 12;
-            this.btnRegistrarJuego.Text = "Registrar";
-            this.btnRegistrarJuego.UseVisualStyleBackColor = true;
-            this.btnRegistrarJuego.Click += new System.EventHandler(this.btnRegistrarJuego_Click);
-            // 
-            // BtnLimpiarJuego
-            // 
-            this.BtnLimpiarJuego.ForeColor = System.Drawing.Color.Black;
-            this.BtnLimpiarJuego.Location = new System.Drawing.Point(17, 219);
-            this.BtnLimpiarJuego.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnLimpiarJuego.Name = "BtnLimpiarJuego";
-            this.BtnLimpiarJuego.Size = new System.Drawing.Size(191, 23);
-            this.BtnLimpiarJuego.TabIndex = 11;
-            this.BtnLimpiarJuego.Text = "Limpiar";
-            this.BtnLimpiarJuego.UseVisualStyleBackColor = true;
-            this.BtnLimpiarJuego.Click += new System.EventHandler(this.BtnLimpiarJuego_Click);
             // 
             // txtDesarrollador
             // 
@@ -270,6 +270,18 @@
             this.label11.TabIndex = 0;
             this.label11.Text = "ID:";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::RespawnHub.Properties.Resources.image_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(408, 20);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(99, 96);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
@@ -283,25 +295,13 @@
             // 
             this.btnSesionesdeJuego.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSesionesdeJuego.Image = ((System.Drawing.Image)(resources.GetObject("btnSesionesdeJuego.Image")));
-            this.btnSesionesdeJuego.Location = new System.Drawing.Point(-17, 381);
+            this.btnSesionesdeJuego.Location = new System.Drawing.Point(-17, 362);
             this.btnSesionesdeJuego.Margin = new System.Windows.Forms.Padding(2);
             this.btnSesionesdeJuego.Name = "btnSesionesdeJuego";
             this.btnSesionesdeJuego.Size = new System.Drawing.Size(143, 140);
             this.btnSesionesdeJuego.TabIndex = 8;
             this.btnSesionesdeJuego.UseVisualStyleBackColor = true;
             this.btnSesionesdeJuego.Click += new System.EventHandler(this.btnSesionesdeJuego_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::RespawnHub.Properties.Resources.image_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(408, 20);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(99, 96);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
             // 
             // Juegos
             // 
