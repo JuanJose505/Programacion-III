@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using RespawnHub.Controllers;
 using RespawnHub.Models;
 
+
 namespace RespawnHub.Forms
 {
     public partial class Usuarios : Form
@@ -94,13 +95,13 @@ namespace RespawnHub.Forms
         {
             dgvUsuarios.EndEdit(); 
 
-            List<RespawnHub.Models.Usuario> lista = new List<RespawnHub.Models.Usuario>();
+            List<Usuario> lista = new List<Usuario>();
 
             foreach (DataGridViewRow fila in dgvUsuarios.Rows)
             {
                 if (fila.IsNewRow) continue;
 
-                lista.Add(new RespawnHub.Models.Usuario
+                lista.Add(new Usuario
                 {
                     ID = fila.Cells[0].Value?.ToString(),
                     Nombre = fila.Cells[1].Value?.ToString(),

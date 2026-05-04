@@ -15,18 +15,17 @@ namespace RespawnHub.Controllers
         {
             Sesion sesion = new Sesion();
 
-            sesion.Crear(new Sesion
-            {
-                ID = id,
-                Fecha = fecha,
-                IDJuego = idjuego,
-                NombreJuego = nombrejuego,
-                Modo = modo,
-                Notas = notas,
-                Horas = horas,
-                IDUsuario = idusuario,
-                NombreUsuario = nombreusuario
-            });
+            sesion.ID = id;
+            sesion.Fecha = fecha;
+            sesion.IDJuego = idjuego;
+            sesion.NombreJuego = nombrejuego;
+            sesion.Modo = modo;
+            sesion.Notas = notas;
+            sesion.Horas = horas;
+            sesion.IDUsuario = idusuario;
+            sesion.NombreUsuario = nombreusuario;
+
+            sesion.Crear(sesion);
 
             return "ok";
         }

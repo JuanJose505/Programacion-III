@@ -16,9 +16,39 @@ namespace RespawnHub.Controllers
         {
             Usuario usuario = new Usuario();
 
+            if (id == "")
+            {
+                return "Error al ingresar usuario";
+            }
+
+            if (nombre == "")
+            {
+                return "Error al ingresar usuario";
+            }
+
+            if (telefono == "")
+            {
+                return "Error al ingresar usuario";
+            }
+
+            if (correo == "")
+            {
+                return "Error al ingresar usuario";
+            }
+
+            if (direccion == "")
+            {
+                return "Error al ingresar usuario";
+            }
+
             if (usuario.Buscar(id) != null)
             {
                 return "El usuario con ese ID ya existe";
+            }
+
+            if (!correo.Contains("@") || !correo.Contains(".com"))
+            {
+                return "El correo no es valido, ingrese un correo valido";
             }
 
             usuario.Crear(id, nombre, telefono, correo, direccion);

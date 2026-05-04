@@ -31,12 +31,7 @@ namespace RespawnHub.Views
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
-        {
-            
-
-            
-
-        }
+        { }
         private void LimpiarCampos()
         {
             txtID.Clear();
