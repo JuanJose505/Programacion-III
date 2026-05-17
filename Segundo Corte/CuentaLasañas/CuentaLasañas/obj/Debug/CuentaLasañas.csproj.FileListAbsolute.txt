@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\bin\Debug\CuentaLasañas.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\bin\Debug\CuentaLasañas.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\bin\Debug\CuentaLasañas.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\CuentaLasañas\CuentaLasañas\obj\Debug\CuentaLasañas.pdb

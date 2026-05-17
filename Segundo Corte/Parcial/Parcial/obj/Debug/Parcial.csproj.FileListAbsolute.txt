@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\Parcial\Parcial\obj\Debug\Parcial.pdb

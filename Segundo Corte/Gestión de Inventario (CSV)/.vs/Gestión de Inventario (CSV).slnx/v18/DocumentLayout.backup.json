@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{D215BAEB-54E5-45DF-896C-B5DE89F04D98}|Gesti\u00F3n de Inventario (CSV)\\Gesti\u00F3n de Inventario (CSV).csproj|solutionrelative:gesti\u00F3n de inventario (csv)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D215BAEB-54E5-45DF-896C-B5DE89F04D98}|Gesti\u00F3n de Inventario (CSV)\\Gesti\u00F3n de Inventario (CSV).csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\gesti\u00F3n de inventario (csv)\\gesti\u00F3n de inventario (csv)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D215BAEB-54E5-45DF-896C-B5DE89F04D98}|Gesti\u00F3n de Inventario (CSV)\\Gesti\u00F3n de Inventario (CSV).csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\Gesti\u00F3n de Inventario (CSV)\\gesti\u00F3n de inventario (csv)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D215BAEB-54E5-45DF-896C-B5DE89F04D98}|Gesti\u00F3n de Inventario (CSV)\\Gesti\u00F3n de Inventario (CSV).csproj|solutionrelative:gesti\u00F3n de inventario (csv)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"

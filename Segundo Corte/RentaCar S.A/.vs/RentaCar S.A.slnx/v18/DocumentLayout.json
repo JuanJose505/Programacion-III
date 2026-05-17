@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\rentacar s.a\\rentacar s.a\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|solutionrelative:rentacar s.a\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\rentacar s.a\\rentacar s.a\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|solutionrelative:rentacar s.a\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\rentacar s.a\\rentacar s.a\\datos\\vehiculodato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|solutionrelative:rentacar s.a\\datos\\vehiculodato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\rentacar s.a\\rentacar s.a\\logica\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AC6466-C1FF-4B6F-A02D-3E324B7AF587}|RentaCar S.A\\RentaCar S.A.csproj|solutionrelative:rentacar s.a\\logica\\vehiculoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "RentaCar S.A\\Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Presentacion\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RentaCar S.A\\Presentacion\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:06:37.095Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "RentaCar S.A\\Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Presentacion\\Form1.cs",
+              "RelativeToolTip": "RentaCar S.A\\Presentacion\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:47:12.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehiculoService.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Logica\\VehiculoService.cs",
+              "RelativeDocumentMoniker": "RentaCar S.A\\Logica\\VehiculoService.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Logica\\VehiculoService.cs",
+              "RelativeToolTip": "RentaCar S.A\\Logica\\VehiculoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:40:14.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehiculoDato.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Datos\\VehiculoDato.cs",
+              "RelativeDocumentMoniker": "RentaCar S.A\\Datos\\VehiculoDato.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RentaCar S.A\\RentaCar S.A\\Datos\\VehiculoDato.cs",
+              "RelativeToolTip": "RentaCar S.A\\Datos\\VehiculoDato.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:19:38.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

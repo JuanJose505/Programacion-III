@@ -1,0 +1,10 @@
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\bin\Debug\RentaCar S.A.exe.config
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\bin\Debug\RentaCar S.A.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\bin\Debug\RentaCar S.A.pdb
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar S.A.csproj.AssemblyReference.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar_S.A.Form1.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar_S.A.Properties.Resources.resources
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar S.A.csproj.GenerateResource.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar S.A.csproj.CoreCompileInputs.cache
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar S.A.exe
+C:\Users\JuanJ\Documents\GitHub\Programacion III\Segundo Corte\RentaCar S.A\RentaCar S.A\obj\Debug\RentaCar S.A.pdb

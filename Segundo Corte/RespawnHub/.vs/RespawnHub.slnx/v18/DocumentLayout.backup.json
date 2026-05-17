@@ -3,7 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\views\\sesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\views\\estadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\estadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\controllers\\juegocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\controllers\\juegocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JuanJ\\AppData\\Local\\Temp\\.vsdbgsrc\\43842a0e062fe93662e3e8b501325cf932ba495332f5638d560ba24afe92bf2e\\DataGridViewCell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|c:\\users\\juanj\\documents\\github\\programacion iii\\segundo corte\\respawnhub\\respawnhub\\views\\estadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\estadisticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\respawnhub\\views\\sesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D5486DE-524B-409A-B0E0-8C979383C390}|RespawnHub\\RespawnHub.csproj|solutionrelative:respawnhub\\views\\sesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,6 +50,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Estadisticas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Estadisticas.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Views\\Estadisticas.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Estadisticas.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "RespawnHub\\Views\\Estadisticas.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:56:30.046Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataGridViewCell.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\AppData\\Local\\Temp\\.vsdbgsrc\\43842a0e062fe93662e3e8b501325cf932ba495332f5638d560ba24afe92bf2e\\DataGridViewCell.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\43842a0e062fe93662e3e8b501325cf932ba495332f5638d560ba24afe92bf2e\\DataGridViewCell.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\AppData\\Local\\Temp\\.vsdbgsrc\\43842a0e062fe93662e3e8b501325cf932ba495332f5638d560ba24afe92bf2e\\DataGridViewCell.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\43842a0e062fe93662e3e8b501325cf932ba495332f5638d560ba24afe92bf2e\\DataGridViewCell.cs [Solo lectura]",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAIwKgAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:56:10.479Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Estadisticas.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Estadisticas.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Views\\Estadisticas.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Estadisticas.cs*",
+              "RelativeToolTip": "RespawnHub\\Views\\Estadisticas.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T18:54:52.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Home.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Views\\Home.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Home.cs",
+              "RelativeToolTip": "RespawnHub\\Views\\Home.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:01:03.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Views\\Usuario.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Usuario.cs",
+              "RelativeToolTip": "RespawnHub\\Views\\Usuario.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T22:27:00.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JuegoController.cs",
+              "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers\\JuegoController.cs",
+              "RelativeDocumentMoniker": "RespawnHub\\Controllers\\JuegoController.cs",
+              "ToolTip": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Controllers\\JuegoController.cs",
+              "RelativeToolTip": "RespawnHub\\Controllers\\JuegoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T13:56:24.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Sesiones.cs",
               "DocumentMoniker": "C:\\Users\\JuanJ\\Documents\\GitHub\\Programacion III\\Segundo Corte\\RespawnHub\\RespawnHub\\Views\\Sesiones.cs",
               "RelativeDocumentMoniker": "RespawnHub\\Views\\Sesiones.cs",
@@ -34,8 +133,7 @@
               "RelativeToolTip": "RespawnHub\\Views\\Sesiones.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T02:53:16.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T02:53:16.151Z"
             }
           ]
         }

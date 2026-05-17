@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,10 +13,29 @@ namespace Gestión_de_Inventario_de_Productos
 {
     public partial class Form1 : Form
     {
+
+        
+        string rutaarchivo = "productos.csv";
         public Form1()
         {
             InitializeComponent();
+            ejemplo();
         }
+
+
+        private void ejemplo()
+        {
+            if (!File.Exists(rutaarchivo))
+            {
+                File.WriteAllText(rutaarchivo, ""); 
+            }
+
+            var linea = File.ReadAllLines(rutaarchivo);
+
+            //if (linea != ) 
+        }
+
+
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -112,6 +132,11 @@ namespace Gestión_de_Inventario_de_Productos
             {
                 dtpFechaVencimiento.Enabled = true;
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

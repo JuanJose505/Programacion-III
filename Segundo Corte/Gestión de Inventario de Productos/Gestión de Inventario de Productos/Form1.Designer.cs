@@ -39,13 +39,15 @@
             this.label5 = new System.Windows.Forms.Label();
             this.numStockMinimo = new System.Windows.Forms.NumericUpDown();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbExento = new System.Windows.Forms.RadioButton();
-            this.rbGeneral = new System.Windows.Forms.RadioButton();
-            this.rbReducido = new System.Windows.Forms.RadioButton();
             this.chkEsPerecedero = new System.Windows.Forms.CheckBox();
+            this.rbReducido = new System.Windows.Forms.RadioButton();
+            this.rbGeneral = new System.Windows.Forms.RadioButton();
+            this.rbExento = new System.Windows.Forms.RadioButton();
             this.dtpFechaVencimiento = new System.Windows.Forms.DateTimePicker();
             this.btnValidar = new System.Windows.Forms.Button();
             this.lblValidar = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.numStockInicial)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numStockMinimo)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -107,7 +109,7 @@
             // 
             // numStockInicial
             // 
-            this.numStockInicial.Location = new System.Drawing.Point(444, 54);
+            this.numStockInicial.Location = new System.Drawing.Point(285, 269);
             this.numStockInicial.Name = "numStockInicial";
             this.numStockInicial.Size = new System.Drawing.Size(120, 22);
             this.numStockInicial.TabIndex = 6;
@@ -115,7 +117,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(441, 19);
+            this.label4.Location = new System.Drawing.Point(282, 234);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 16);
             this.label4.TabIndex = 7;
@@ -124,7 +126,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(597, 19);
+            this.label5.Location = new System.Drawing.Point(438, 234);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 16);
             this.label5.TabIndex = 8;
@@ -132,7 +134,7 @@
             // 
             // numStockMinimo
             // 
-            this.numStockMinimo.Location = new System.Drawing.Point(600, 54);
+            this.numStockMinimo.Location = new System.Drawing.Point(441, 269);
             this.numStockMinimo.Name = "numStockMinimo";
             this.numStockMinimo.Size = new System.Drawing.Size(120, 22);
             this.numStockMinimo.TabIndex = 9;
@@ -150,49 +152,49 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "IVA";
             // 
-            // rbExento
+            // chkEsPerecedero
             // 
-            this.rbExento.AutoSize = true;
-            this.rbExento.Location = new System.Drawing.Point(19, 31);
-            this.rbExento.Name = "rbExento";
-            this.rbExento.Size = new System.Drawing.Size(96, 20);
-            this.rbExento.TabIndex = 0;
-            this.rbExento.TabStop = true;
-            this.rbExento.Text = "Exento (0%)";
-            this.rbExento.UseVisualStyleBackColor = true;
-            // 
-            // rbGeneral
-            // 
-            this.rbGeneral.AutoSize = true;
-            this.rbGeneral.Location = new System.Drawing.Point(19, 70);
-            this.rbGeneral.Name = "rbGeneral";
-            this.rbGeneral.Size = new System.Drawing.Size(110, 20);
-            this.rbGeneral.TabIndex = 1;
-            this.rbGeneral.TabStop = true;
-            this.rbGeneral.Text = "General (19%)";
-            this.rbGeneral.UseVisualStyleBackColor = true;
+            this.chkEsPerecedero.AutoSize = true;
+            this.chkEsPerecedero.Location = new System.Drawing.Point(135, 71);
+            this.chkEsPerecedero.Name = "chkEsPerecedero";
+            this.chkEsPerecedero.Size = new System.Drawing.Size(120, 20);
+            this.chkEsPerecedero.TabIndex = 11;
+            this.chkEsPerecedero.Text = "Es Perecedero";
+            this.chkEsPerecedero.UseVisualStyleBackColor = true;
+            this.chkEsPerecedero.CheckedChanged += new System.EventHandler(this.chkEsPerecedero_CheckedChanged);
             // 
             // rbReducido
             // 
             this.rbReducido.AutoSize = true;
             this.rbReducido.Location = new System.Drawing.Point(19, 107);
             this.rbReducido.Name = "rbReducido";
-            this.rbReducido.Size = new System.Drawing.Size(114, 20);
+            this.rbReducido.Size = new System.Drawing.Size(117, 20);
             this.rbReducido.TabIndex = 2;
             this.rbReducido.TabStop = true;
             this.rbReducido.Text = "Reducido (5%)";
             this.rbReducido.UseVisualStyleBackColor = true;
             // 
-            // chkEsPerecedero
+            // rbGeneral
             // 
-            this.chkEsPerecedero.AutoSize = true;
-            this.chkEsPerecedero.Location = new System.Drawing.Point(135, 71);
-            this.chkEsPerecedero.Name = "chkEsPerecedero";
-            this.chkEsPerecedero.Size = new System.Drawing.Size(117, 20);
-            this.chkEsPerecedero.TabIndex = 11;
-            this.chkEsPerecedero.Text = "Es Perecedero";
-            this.chkEsPerecedero.UseVisualStyleBackColor = true;
-            this.chkEsPerecedero.CheckedChanged += new System.EventHandler(this.chkEsPerecedero_CheckedChanged);
+            this.rbGeneral.AutoSize = true;
+            this.rbGeneral.Location = new System.Drawing.Point(19, 70);
+            this.rbGeneral.Name = "rbGeneral";
+            this.rbGeneral.Size = new System.Drawing.Size(113, 20);
+            this.rbGeneral.TabIndex = 1;
+            this.rbGeneral.TabStop = true;
+            this.rbGeneral.Text = "General (19%)";
+            this.rbGeneral.UseVisualStyleBackColor = true;
+            // 
+            // rbExento
+            // 
+            this.rbExento.AutoSize = true;
+            this.rbExento.Location = new System.Drawing.Point(19, 31);
+            this.rbExento.Name = "rbExento";
+            this.rbExento.Size = new System.Drawing.Size(99, 20);
+            this.rbExento.TabIndex = 0;
+            this.rbExento.TabStop = true;
+            this.rbExento.Text = "Exento (0%)";
+            this.rbExento.UseVisualStyleBackColor = true;
             // 
             // dtpFechaVencimiento
             // 
@@ -222,11 +224,36 @@
             this.lblValidar.Text = "VALIDADO AMOR";
             this.lblValidar.Visible = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(438, 19);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(22, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "***";
+            this.label6.Visible = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Electronica",
+            "Alimentos",
+            "Ropa"});
+            this.comboBox1.Location = new System.Drawing.Point(441, 50);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(112, 24);
+            this.comboBox1.TabIndex = 15;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.lblValidar);
             this.Controls.Add(this.btnValidar);
             this.Controls.Add(this.dtpFechaVencimiento);
@@ -272,6 +299,8 @@
         private System.Windows.Forms.DateTimePicker dtpFechaVencimiento;
         private System.Windows.Forms.Button btnValidar;
         private System.Windows.Forms.Label lblValidar;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
